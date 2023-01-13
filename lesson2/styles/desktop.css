@@ -1,4 +1,26 @@
-body{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+@media screen and (min-width: 1700px){
+    body{
+        display: grid;
+        /*grid-template-columns: 1fr 1fr 1fr;*/
+        grid-template-areas: "s1 s2 s3";
+        background-color: lightgreen;
+    }
+
+    #section1 {
+        text-align: center;
+        display: grid;
+        grid-area: s1;
+    }
+
+    #section2 {
+        text-align: center;
+        display: grid;
+        grid-area: s2;
+    }
+
+    #section3 {
+        text-align: center;
+        display: grid;
+        grid-area: s3;
+    }
 }

@@ -10,18 +10,18 @@
     #section1 {
         text-align: center;
         display: grid;
-        grid-area: s3;
+        grid-area: s1;
     }
 
     #section2 {
         text-align: center;
         display: grid;
-        grid-area: s1;
+        grid-area: s2;
     }
 
     #section3 {
         text-align: center;
         display: grid;
-        grid-area: s2;
+        grid-area: s3;
     }
 }
