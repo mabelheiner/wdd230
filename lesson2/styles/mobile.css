@@ -2,54 +2,106 @@
     body{
         display: grid;
         /*grid-template-columns: 1fr 1fr 1fr;*/
-        /*grid-template-areas: "s1 s2 s3";*/
+        grid-template-areas: "s0"
+                            "s1"
+                            "s2"
+                            "s3"
+                            "s4"
+                            "s5"
+                            "s6"
+                            "s7";
         background-color: lavender;
     }
 
+    header{
+      display: grid;
+      grid-area: s0;
+      text-align: center;
+      margin-bottom: 1em;
+
+      background-color: darkblue;
+      color: white;
+    }
+
+    footer{
+      display: grid;
+      grid-area: s7;
+      text-align: center;
+
+      background-color: darkblue;
+      color: white;
+    }
+
+    #title1{
+      display: grid;
+      grid-area: s1;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: .5em;
+      padding-bottom: .5em;
+      border-radius: 1em 1em 0em 0em;
+      background-color: darkblue;
+      color: white;
+    }
+  
     #section1 {
-        text-align: center;
         display: grid;
-        /*grid-area: s3;*/
+        grid-area: s2;
         padding-left: 1em;
         padding-right: 1em;
         padding-top: .5em;
         padding-bottom: .5em;
-        padding: 1em, 1em, 1em, 1em;
-        border-radius: 1em;
         border: 2px gray solid;
         background-color: lightgray;
         margin-bottom: 1em;
-        margin-right: 1em;
+    }
+
+    #title2{
+      display: grid;
+      grid-area: s3;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: .5em;
+      padding-bottom: .5em;
+      border-radius: 1em 1em 0em 0em;
+      background-color: darkblue;
+      color: white;
     }
 
     #section2 {
-        text-align: center;
         display: grid;
-        /*grid-area: s1;*/
+        grid-area: s4;
         padding-left: 1em;
         padding-right: 1em;
         padding-top: .5em;
         padding-bottom: .5em;
-        padding: 1em, 1em, 1em, 1em;
-        border-radius: 1em;
         border: 2px gray solid;
         background-color: lightgray;
         margin-bottom: 1em;
-        margin-right: 1em;
     }
 
+    #title3{
+      display: grid;
+      grid-area: s5;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: .5em;
+      padding-bottom: .5em;
+      border-radius: 1em 1em 0em 0em;
+      background-color: darkblue;
+      color: white;
+    }
+  
     #section3 {
-        text-align: center;
         display: grid;
-        /*grid-area: s2;*/
+        grid-area: s6;
         padding-left: 1em;
         padding-right: 1em;
         padding-top: .5em;
         padding-bottom: .5em;
-        padding: 1em, 1em, 1em, 1em;
-        border-radius: 1em;
         border: 2px gray solid;
         background-color: lightgray;
         margin-bottom: 1em;
     }
+  
 }

@@ -2,24 +2,57 @@
     body{
         display: grid;
         /*grid-template-columns: 1fr 1fr 1fr;*/
-        grid-template-areas: "s1 s2 s3";
+        grid-template-areas: "s0 s0 s0"
+                             "t1 t2 t3"
+                             "s1 s2 s3"
+                             "s4 s4 s4";
         background-color: lightgreen;
     }
+    header{
+      display: grid;
+      grid-area: s0;
+      text-align: center;
+      margin-bottom: 1em;
 
+      background-color: darkblue;
+      color: white;
+    }
+
+    footer{
+      display: grid;
+      grid-area: s4;
+      text-align: center;
+
+      background-color: darkblue;
+      color: white;
+    }
+
+    #title1{
+      display: grid;
+      grid-area: t1;
+    }
+  
     #section1 {
-        text-align: center;
         display: grid;
         grid-area: s1;
     }
 
+    #title2{
+      display: grid;
+      grid-area: t2;
+    }
+  
     #section2 {
-        text-align: center;
         display: grid;
         grid-area: s2;
     }
 
+    #title3{
+      display: grid;
+      grid-area: t3;
+    }
+  
     #section3 {
-        text-align: center;
         display: grid;
         grid-area: s3;
     }
