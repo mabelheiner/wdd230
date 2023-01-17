@@ -1,0 +1,22 @@
+nav ul {
+    display:flex;
+    flex-direction: column;
+}
+
+nav ul li{
+    text-align: center;
+}
+
+nav ul li:hover{
+    background-color: coral;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    margin: 0.5rem;
+}
+
+@media screen and (min-width: 640px) {
+        
+}  
