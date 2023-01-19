@@ -22,11 +22,8 @@ header, footer {
 
 header img{
     float: left;
-  /*
-    margin-top: 0em;
-    margin-bottom: 3em;
-  */
     margin: 1rem;
+    margin-top: 0em;
     border: 1px solid white;
     padding: 5px;
     height: 150px;
