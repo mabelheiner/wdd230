@@ -1,7 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+/*
+potential background color: #560216 
+potential Nav color: #E89F00
+*/
 body {
-  font-family: 'Alata', sans-serif;
+  font-family: 'Playfair Display', serif;
 }
 header,footer,main {
   max-width: 640px;
@@ -9,12 +13,27 @@ header,footer,main {
   border: 1px solid black;
   padding: 1rem;
 }
+
 header, footer {
-  background-color: #21C127;
+  color: white;
+  background-color: #560216 ;
   text-align: center;
 }
+
+header img{
+    float: left;
+  /*
+    margin-top: 0em;
+    margin-bottom: 3em;
+  */
+    margin: 1rem;
+    border: 1px solid white;
+    padding: 5px;
+    height: 150px;
+}
+
 nav {
-  background-color: #8FEF93;
+  background-color: #E89F00;
   max-width: 640px;
   margin: 0 auto;
   padding: 1rem;
@@ -33,7 +52,7 @@ nav ul li {
   min-width: 210px;
 }
 nav ul li:hover {
-  background-color: #21C127;
+  background-color: #CF920E;
 }
 
 nav a {
@@ -48,7 +67,7 @@ h1{
 }
 
 .active {
-  background-color: #21C127;
+  background-color: #CF920E;
 }
 
 /* Media Query Updates for middle widths */
