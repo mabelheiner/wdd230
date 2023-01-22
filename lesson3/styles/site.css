@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
-
+/* @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 /*
 potential background color: #560216 
 potential Nav color: #E89F00
@@ -16,8 +16,12 @@ header,footer,main {
 
 header, footer {
   color: white;
-  background-color: #560216 ;
+  background-color: #560216;
   text-align: center;
+}
+
+.design_img {
+  max-width: 640px;
 }
 
 header img{
