@@ -20,6 +20,13 @@ header, footer {
   text-align: center;
 }
 
+footer {
+    background: url('../images/leroy_panther.png');
+    background-color: transparent;
+    background-size: contain;
+    color: #CF920E;
+}
+
 .design_img {
   max-width: 640px;
   
@@ -31,6 +38,15 @@ header, footer {
 
 header img{
     float: left;
+    margin: 1rem;
+    margin-top: 0em;
+    border: 1px solid white;
+    padding: 5px;
+    height: 150px;
+}
+
+.panther {
+    float: right;
     margin: 1rem;
     margin-top: 0em;
     border: 1px solid white;
