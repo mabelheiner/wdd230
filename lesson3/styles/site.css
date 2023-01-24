@@ -26,6 +26,12 @@ footer {
     background-size: contain;
 }
 
+footer span {
+  background-color: #3b020f;
+  padding: .5em;
+  border-radius: 1em 1em 1em 1em;
+}
+
 .design_img {
   max-width: 640px;
   
