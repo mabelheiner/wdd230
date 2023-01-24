@@ -24,6 +24,10 @@ header, footer {
   max-width: 640px;
 }
 
+.target_img {
+  height: 150px;
+}
+
 header img{
     float: left;
     margin: 1rem;
