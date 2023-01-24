@@ -10,7 +10,6 @@ body {
 header,footer,main {
   max-width: 100%;
   margin: 0 auto;
-  border: 1px solid black;
   padding: 1rem;
 }
 
@@ -18,13 +17,13 @@ header, footer {
   color: white;
   background-color: #560216;
   text-align: center;
+  border: 1px solid black;
 }
 
 footer {
     background: url('../images/leroy_panther.png');
     background-color: transparent;
     background-size: contain;
-    color: #CF920E;
 }
 
 .design_img {
