@@ -1,0 +1,94 @@
+.header_img, .footer_img{
+    float: left;
+    height: 150px;
+    padding: 5px;
+}
+
+#today{
+    background-color: gray;
+    border: 1px solid white;
+    padding: .5em;
+    max-width: 100%;
+}
+
+header, footer{
+    background-color: dimgray;
+    padding: 1em;
+    color: white;
+}
+
+ul{
+    list-style: none;
+}
+
+#hero{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 2px darkgray solid;
+    background-color: lightgray;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+#event{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 2px darkgray solid;
+    background-color: lightgray;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+#weather{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 2px gray solid;
+    background-color: lightgray;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+#news{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 2px gray solid;
+    background-color: lightgray;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+#spotlights{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 2px gray solid;
+    background-color: lightgray;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}
+
+#join{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border: 2px gray solid;
+    background-color: lightgray;
+    margin-bottom: 1em;
+    margin-right: 0.5em;
+    margin-left: 0.5em;
+}

@@ -98,10 +98,54 @@ h1{
   background-color: #CF920E;
 }
 
+/*Hamburger Menu Stuff*/
+#hamburger-menu {
+  background-color: #560216;
+  font-size: 2rem;
+  color: white;
+  border: 1px solid white;
+}
+
+#navbar{
+  display: none;
+}
+
+#menu-open{
+  display: none;
+}
+
+#menu-close{
+  display: inline;
+}
+
+#navbar.menu-active{
+  display: flex;
+}
+
+#menu-open.menu-active{
+  display: inline;
+}
+
+#menu-close.menu-active{
+  display: none;
+}
+
 /* Media Query Updates for middle widths */
 
 @media screen and (min-width: 640px) {
     nav ul {
       flex-direction: row;
+    }
+
+    #hamburger-menu {
+      display: none;
+    }
+
+    #navbar {
+      display: flex;
+    }
+
+    #hamburger-menu{
+      display: none;
     }
   }  
