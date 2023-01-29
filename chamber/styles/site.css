@@ -1,13 +1,16 @@
 .header_img, .footer_img{
     float: left;
-    height: 150px;
+    height: 250px;
     padding: 5px;
 }
 
 #today{
     background-color: gray;
     border: 1px solid white;
-    padding: .5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 10em;
+    padding-right: 10em;
     max-width: 100%;
 }
 
@@ -15,10 +18,23 @@ header, footer{
     background-color: dimgray;
     padding: 1em;
     color: white;
+    text-align: center;
 }
 
-ul{
-    list-style: none;
+nav {
+    margin: auto;
+    padding: 1rem;
+  }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;  
+}
+  
+nav ul li {
+    text-align: center;
+    min-width: 20%;
 }
 
 main {
