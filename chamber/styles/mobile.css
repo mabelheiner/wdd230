@@ -80,10 +80,13 @@ footer {
 main {
     font-style: italic;
     display: grid;
-    grid-template-areas: "event hero hero spotlights"
-                        "weather hero hero spotlights"
-                        "join news news spotlights";
-    grid-gap: 1em;
+    grid-template-areas: "hero"
+                        "event"
+                        "weather"
+                        "news"
+                        "spotlights"
+                        "spotlights";
+    grid-gap: .5em;
 }
 
 .hero{
@@ -100,7 +103,6 @@ main {
     border: 2px gray solid;
     background-color: lightgray;
     padding: 1em;
-    margin-left: 1em;
 }
 
 .weather{
@@ -109,7 +111,6 @@ main {
     border: 2px gray solid;
     background-color: lightgray;
     padding: 1em;
-    margin-left: 1em;
 }
 
 .news{
@@ -121,12 +122,12 @@ main {
 }
 
 .spotlights{
-    display: block;
+    display: flex;
     grid-area: spotlights;
+    flex-direction: column;
     padding: 1em;
     border: 2px gray solid;
     background-color: lightgray;
-    margin-right: 1em;
 }
 
 .spotlight1{
@@ -144,18 +145,11 @@ main {
 }
 
 .spotlight3{
-    border: 2px gray solid;
-    background-color: lightgray;
-    padding: 1em;
+    display: none;
 }
 
 .join{
-    display: block;
-    grid-area: join;
-    border: 2px gray solid;
-    background-color: lightgray;
-    padding: 1em;
-    margin-left: 1em;
+    display: none;
 }
 
 .bottom-footer {
