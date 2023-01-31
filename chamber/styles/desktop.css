@@ -120,11 +120,13 @@
     .spotlight1{
         display: block;
         padding: 1em;
+        width: auto;
     }
     
     .spotlight2{
         display: block;
         padding: 1em;
+        width: auto;
     }
     
     .spotlight3{

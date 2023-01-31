@@ -112,20 +112,20 @@
     }
     
     .spotlights{
-        display: flex;
         grid-area: spotlights;
-        flex-direction: row;
+        display: flex;
+        flex-direction: row;     
         padding: 1em;
     }
     
     .spotlight1{
-        display: block;
         padding: 1em;
+        width: 50%;
     }
     
     .spotlight2{
-        display: block;
         padding: 1em;
+        width: 50%;
     }
     
     .spotlight3{
