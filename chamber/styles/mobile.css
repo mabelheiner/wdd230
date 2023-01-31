@@ -88,6 +88,11 @@ footer {
     text-align: center;
 }
 
+a{
+    text-decoration: none;
+    color: white;
+}
+
 .part2{
     display: grid;
     text-align: center;
