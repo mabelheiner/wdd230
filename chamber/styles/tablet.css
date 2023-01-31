@@ -1,8 +1,13 @@
 @media (min-width: 600px){
     .header_img, .footer_img{
-        float: left;
-        height: 150px;
-        padding: 5px;
+        height: 120px;
+    }
+
+    .social_logo{
+        float: right;
+        height: 35px;
+        padding-top: 60px;
+        padding-right: 10px;
     }
     
     #today{

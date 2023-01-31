@@ -9,15 +9,12 @@ body {
 
 .header_img, .footer_img{
     float: left;
-    height: 150px;
-    padding: 5px;
+    height: 120px;
 }
 
-.facebook_logo, .instagram_logo{
+.social_logo{
     float: right;
     height: 35px;
-    padding-top: 60px;
-    padding-right: 10px;
 }
 
 #today{
@@ -177,6 +174,7 @@ main {
     display: grid;
     grid-area: bottom;
     height: 30px;
+    border-top: .25px solid white
 }
 
 /*Hamburger Menu Stuff*/
