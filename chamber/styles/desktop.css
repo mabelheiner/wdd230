@@ -6,7 +6,6 @@
     }
     
     #today{
-        background-color: gray;
         border: 1px solid white;
         display: block;
         text-align: center;
@@ -15,7 +14,6 @@
     }
     
     header, footer{
-        background-color: dimgray;
         padding: 1em;
         color: white;
         text-align: center;
@@ -31,7 +29,7 @@
     }
     
     nav ul li:hover{
-        background-color: rgb(56,56,56);
+        background-color: #CF920E;
     }
     
     nav ul {
@@ -44,7 +42,8 @@
         min-width: 20%;
         padding-top: 1em;
         padding-bottom: 1em;
-        border: 1.5px solid gray;
+        border: 1.5px solid white;
+        background-color: #E89F00;
     }
     
     nav a {
@@ -90,16 +89,12 @@
     .hero{
         display: block;
         grid-area: hero;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
     .event{
         display: block;
         grid-area: event;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
         margin-left: 1em;
     }
@@ -107,8 +102,6 @@
     .weather{
         display: block;
         grid-area: weather;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
         margin-left: 1em;
     }
@@ -116,8 +109,6 @@
     .news{
         display: block;
         grid-area: news;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
@@ -125,22 +116,16 @@
         display: block;
         grid-area: spotlights;
         padding: 1em;
-        border: 2px gray solid;
-        background-color: lightgray;
         margin-right: 1em;
     }
     
     .spotlight1{
         display: block;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
     .spotlight2{
         display: block;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
@@ -154,8 +139,6 @@
     .join{
         display: block;
         grid-area: join;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
         margin-left: 1em;
     }
@@ -166,4 +149,13 @@
         grid-area: bottom;
         height: 30px;
     }
+
+/*hamburger menu*/
+#hamburger-menu{
+    display: none;
+}
+
+#navbar{
+    display: flex;
+}
 }

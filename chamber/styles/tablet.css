@@ -6,7 +6,6 @@
     }
     
     #today{
-        background-color: gray;
         border: 1px solid white;
         display: block;
         text-align: center;
@@ -15,7 +14,6 @@
     }
     
     header, footer{
-        background-color: dimgray;
         padding: 1em;
         color: white;
         text-align: center;
@@ -28,10 +26,6 @@
     nav {
         margin: auto;
         padding: 1rem;
-    }
-    
-    nav ul li:hover{
-        background-color: rgb(56,56,56);
     }
     
     nav ul {
@@ -92,32 +86,24 @@
     .hero{
         display: block;
         grid-area: hero;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
     .event{
         display: block;
         grid-area: event;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
     .weather{
         display: block;
         grid-area: weather;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
     .news{
         display: block;
         grid-area: news;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
@@ -126,21 +112,15 @@
         grid-area: spotlights;
         flex-direction: row;
         padding: 1em;
-        border: 2px gray solid;
-        background-color: lightgray;
     }
     
     .spotlight1{
         display: block;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
     .spotlight2{
         display: block;
-        border: 2px gray solid;
-        background-color: lightgray;
         padding: 1em;
     }
     
@@ -151,9 +131,9 @@
     .join{
         display: block;
         grid-area: join;
+        padding: 1em;
         border: 2px gray solid;
         background-color: lightgray;
-        padding: 1em;
     }
     
     .bottom-footer {

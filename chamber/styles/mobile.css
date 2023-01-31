@@ -5,7 +5,7 @@
 }
 
 #today{
-    background-color: gray;
+    background-color: #E89F00;
     border: 1px solid white;
     display: block;
     text-align: center;
@@ -14,7 +14,7 @@
 }
 
 header, footer{
-    background-color: dimgray;
+    background-color: #560216;
     padding: 1em;
     color: white;
     text-align: center;
@@ -30,7 +30,7 @@ nav {
 }
 
 nav ul li:hover{
-    background-color: rgb(56,56,56);
+    background-color: #CF920E;
 }
 
 nav ul {
@@ -44,6 +44,7 @@ nav ul li {
     padding-top: 1em;
     padding-bottom: 1em;
     border: 1.5px solid gray;
+    background-color: #E89F00;
 }
 
 nav a {
@@ -158,3 +159,37 @@ main {
     grid-area: bottom;
     height: 30px;
 }
+
+/*Hamburger Menu Stuff*/
+#hamburger-menu {
+    background-color: #560216;
+    font-size: 2rem;
+    color: white;
+    border: 1px solid white;
+    float: right;
+  }
+  
+  #navbar{
+    display: none;
+  }
+  
+  #menu-open{
+    display: none;
+  }
+  
+  #menu-close{
+    display: inline;
+  }
+  
+  #navbar.menu-active{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #menu-open.menu-active{
+    display: inline;
+  }
+  
+  #menu-close.menu-active{
+    display: none;
+  }
