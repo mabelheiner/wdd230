@@ -151,11 +151,12 @@
     }
 
 /*hamburger menu*/
-#hamburger-menu{
+#hamburger-menu {
     display: none;
-}
-
-#navbar{
+  }
+  
+  #navbar{
     display: flex;
-}
+    flex-direction: row;
+  }
 }

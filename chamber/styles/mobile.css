@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+/*
+potential background color: #560216 
+potential Nav color: #E89F00
+*/
+body {
+  font-family: 'Playfair Display', serif;
+}
+
 .header_img, .footer_img{
     float: left;
     height: 150px;
@@ -11,6 +20,7 @@
     text-align: center;
     padding: 0.5rem;
     font-size: 18px;
+    color: black;
 }
 
 header, footer{
@@ -43,8 +53,10 @@ nav ul li {
     min-width: 20%;
     padding-top: 1em;
     padding-bottom: 1em;
-    border: 1.5px solid gray;
+    border: .5px solid white;
+    margin-bottom: .1em;
     background-color: #E89F00;
+    color: black;
 }
 
 nav a {
