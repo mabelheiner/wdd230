@@ -13,6 +13,13 @@ body {
     padding: 5px;
 }
 
+.facebook_logo, .instagram_logo{
+    float: right;
+    height: 35px;
+    padding-top: 60px;
+    padding-right: 10px;
+}
+
 #today{
     background-color: #E89F00;
     border: 1px solid white;
