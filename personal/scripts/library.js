@@ -41,11 +41,13 @@ function output(books){
         document.getElementById("books").appendChild(book);
 
         star.addEventListener('click', () => {
-            if (star.innerHTML == "⭐") {
-                star.innerHTML = "☆";
+            if (star.id == "star_filled") {
+                star.id = "star";
+                star.innerHTML = "☆"
             }
             else {
-                star.innerHTML = "⭐"
+                star.id = "star_filled";
+                star.innerHTML = "★";
             }
         });
     });

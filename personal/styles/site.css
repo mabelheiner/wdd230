@@ -156,3 +156,11 @@ book{
   border-style: none;
   font-size: 2em;
 }
+
+#star_filled{
+  float: right;
+  background: none;
+  border-style: none;
+  font-size: 2em;
+  color: gold;
+}
