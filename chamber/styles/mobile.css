@@ -1,7 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
 
-
-
 body {
   font-family: 'Playfair Display', serif;
 }
@@ -35,6 +33,7 @@ header, footer{
 
 header{
     margin-bottom: 1em;
+    text-align: center;
 }
 
 nav {
@@ -47,8 +46,6 @@ nav ul li:hover{
 }
 
 nav ul {
-    display: flex;
-    flex-direction: row;
     list-style: none;  
 }
   
@@ -221,4 +218,19 @@ main {
   
   #menu-close.menu-active{
     display: none;
+  }
+
+  #meet-greet {
+    display: none;
+  }
+  
+  #meet-greet.active{
+    background-color: #E89F00;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    border: 1px solid white;
+    padding: .1em;
+    margin-bottom: 1em;
   }

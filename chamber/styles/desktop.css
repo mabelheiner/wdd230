@@ -1,29 +1,7 @@
-@media (min-width: 1300px){
-    .header_img, .footer_img{
-        height: 120px;
-    }
-    
-    #today{
-        border: 1px solid white;
-        display: block;
-        text-align: center;
-        padding: 0.5rem;
-        font-size: 18px;
-    }
-    
-    header, footer{
-        padding: 1em;
-        color: white;
-        text-align: center;
-    }
-    
-    header{
-        margin-bottom: 1em;
-    }
-    
+@media (min-width: 1300px){        
     nav {
+        margin: auto;
         padding: 1rem;
-        margin-right: 50px;
     }
     
     nav ul li:hover{
@@ -40,8 +18,10 @@
         min-width: 20%;
         padding-top: 1em;
         padding-bottom: 1em;
-        border: 1.5px solid white;
+        border: .5px solid white;
+        margin-bottom: .1em;
         background-color: #E89F00;
+        color: black;
     }
     
     nav a {
@@ -49,31 +29,6 @@
         text-decoration: none;
         color: black;
       }
-    
-    footer {
-        margin-top: 1em;
-        display: grid;
-        grid-template-areas: "image part1 part2"
-                            "bottom bottom bottom";
-        align-items: center;
-    }
-    
-    .footer_img{
-        display: grid;
-        grid-area: image;
-    }
-    
-    .part1{
-        display: grid;
-        grid-area: part1;
-        text-align: center;
-    }
-    
-    .part2{
-        display: grid;
-        text-align: center;
-        grid-area: part2;
-    }
     
     main {
         font-style: italic;
@@ -141,13 +96,6 @@
         grid-area: join;
         padding: 1em;
         margin-left: 1em;
-    }
-    
-    .bottom-footer {
-        width: 100%;
-        display: grid;
-        grid-area: bottom;
-        height: 30px;
     }
 
 /*hamburger menu*/
