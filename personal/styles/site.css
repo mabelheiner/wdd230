@@ -132,3 +132,36 @@ a{
     display: flex;
     flex-direction: row;
   }
+
+/*temples*/
+#books {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+.book_img{
+  height: 150px;
+}
+
+ #books {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 1em;
+} 
+
+
+book{
+  border: 1px solid black;
+  padding: 1em;
+  width: fit-content;
+  margin: 1em;
+}
+
+.book_menu{
+  margin-left: 5em;
+}
