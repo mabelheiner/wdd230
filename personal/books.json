@@ -3,41 +3,47 @@
         "bookName": "Six of Crows",
         "author": "Leigh Bardugo",
         "published": "September 29, 2015",
-        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1651710803i/23437156.jpg"
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1651710803i/23437156.jpg",
+        "star": "star_filled"
     },
 
     {
         "bookName": "Crooked Kingdom",
         "author": "Leigh Bardugo",
         "published": "September 27, 2016",
-        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1456172607i/22299763.jpg"
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1456172607i/22299763.jpg",
+        "star": "star_filled"
     },
 
     {
         "bookName": "Cinder",
         "author": "Marissa Meyer",
         "published": "January 3, 2012",
-        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1507557775i/36381037.jpg"
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1507557775i/36381037.jpg",
+        "star": "star_filled"
     },
 
     {
         "bookName": "Go the Distance",
         "author": "Jen Calonita",
         "published": "April 6, 2021",
-        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607535553i/54817211.jpg"
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607535553i/54817211.jpg",
+        "star": "star_filled"
     },
 
     {
         "bookName": "Red Queen",
         "author": "Victoria Aveyard",
         "published": "February 10, 2015",
-        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1449778912i/22328546.jpg"
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1449778912i/22328546.jpg",
+        "star": "star"
     },
 
     {
         "bookName": "The Ballad of Songbirds and Snakes",
         "author": "Suzanne Collins",
         "published": "May 19, 2020",
-        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1593892032i/51901147.jpg"
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1593892032i/51901147.jpg",
+        "star": "star_filled"
     }
 ]

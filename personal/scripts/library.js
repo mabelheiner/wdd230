@@ -12,7 +12,13 @@ function output(books){
     books.forEach(element => {
         let book = document.createElement("book");
         let star = document.createElement("button");
-            star.appendChild(document.createTextNode("☆"));
+            star.id = element.star;
+
+            if (star.id == "star")
+                star.appendChild(document.createTextNode("☆"));
+            else {
+                star.appendChild(document.createTextNode("★"))
+            }
         let space0 = document.createElement("br");
             space0.appendChild(document.createTextNode(""));
         let space1 = document.createElement("br");
@@ -27,7 +33,7 @@ function output(books){
         img.src = element.imageUrl;
         img.alt = element.bookName;
         img.classList = "book_img";
-        star.id = "star"
+        star.id = element.star;
 
         book.appendChild(star);
         book.appendChild(space0);
@@ -48,8 +54,10 @@ function output(books){
                 star.id = "star_filled";
                 star.innerHTML = "★";
             }
+            element.star = star.id
         });
     });
+    fs.writeFileSync("books.json",books,{encoding:'utf8',flag:'w'})
 }
 
 async function getBooks(){
