@@ -56,8 +56,10 @@ async function getBooks(){
    if (result.ok){
         bookList = await result.json();
         
-    bookList.sort(function (a, b) {        
-        if (a.bookName < b.bookName) {
+    bookList.sort(function (a, b) { 
+        let a_author_last = a.author.split(' ').slice(-1);  
+        let b_author_last = b.author.split(' ').slice(-1);   
+        if (a_author_last < b_author_last) {
             return -1;
         }
         else {
@@ -78,26 +80,32 @@ function sortBy(){
     let choice = document.getElementById("sortBy").value;
     
     if (choice == "authorAscending"){
-       bookList.sort(function (a, b) {        
-        if (a.bookName < b.bookName) {
+       bookList.sort(function (a, b) { 
+        let a_author_last = a.author.split(' ').slice(-1);  
+        let b_author_last = b.author.split(' ').slice(-1);   
+        if (a_author_last < b_author_last) {
             return -1;
         }
         else {
             return 1;
         }
-       });
-    }
-    else{
-        bookList.sort(function (a, b) {
-         if (a.bookName > b.bookName) {
-             return -1;
-         }
-         else {
-             return 1;
-         }
-        });
-   };
-   output(bookList);
+    })
+}
+
+    else {
+        bookList.sort(function (a, b) { 
+            let a_author_last = a.author.split(' ').slice(-1);  
+            let b_author_last = b.author.split(' ').slice(-1);   
+            if (a_author_last > b_author_last) {
+                return -1;
+            }
+            else {
+                return 1;
+            }
+
+    })
+    };
+    output(bookList);
 }
 // Step 9: Add a change event listener to the HTML element with an ID of sortBy that calls the sortBy function
 
