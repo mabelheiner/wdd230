@@ -49,11 +49,11 @@ function output(books){
         document.getElementById("books").appendChild(book);
 
         star.addEventListener('click', () => {
-            if (star.innerHTML == "⭐") {
+            if (star.innerHTML == "★") {
                 star.innerHTML = "☆";
             }
             else {
-                star.innerHTML = "⭐"
+                star.innerHTML = "★"
             }
         });
     });
