@@ -10,14 +10,6 @@ let bookList = [];
 
 function output(books){
     let num = 0;
-    books.sort(function (a, b) {        
-        if (a.bookName < b.bookName) {
-            return -1;
-        }
-        else {
-            return 1;
-        }
-       });
     books.forEach(element => {
         let book = document.createElement("book");
         let star = document.createElement("button");
@@ -49,11 +41,11 @@ function output(books){
         document.getElementById("books").appendChild(book);
 
         star.addEventListener('click', () => {
-            if (star.innerHTML == "★") {
+            if (star.innerHTML == "⭐") {
                 star.innerHTML = "☆";
             }
             else {
-                star.innerHTML = "★"
+                star.innerHTML = "⭐"
             }
         });
     });
@@ -63,6 +55,15 @@ async function getTemples(){
     const result = await fetch('books.json');
    if (result.ok){
         bookList = await result.json();
+        
+    bookList.sort(function (a, b) {        
+        if (a.bookName < b.bookName) {
+            return -1;
+        }
+        else {
+            return 1;
+        }
+    });
     output(bookList);
    }
 }
