@@ -51,7 +51,7 @@ function output(books){
     });
 }
 
-async function getTemples(){
+async function getBooks(){
     const result = await fetch('books.json');
    if (result.ok){
         bookList = await result.json();
@@ -67,7 +67,7 @@ async function getTemples(){
     output(bookList);
    }
 }
-getTemples();
+getBooks();
 
 function reset(){
      document.getElementById("books").innerHTML = "";
