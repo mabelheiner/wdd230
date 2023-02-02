@@ -9,7 +9,6 @@ document.querySelector('#lastmodified').textContent = document.lastModified;
 let bookList = [];
 
 function output(books){
-    let num = 0;
     books.forEach(element => {
         let book = document.createElement("book");
         let star = document.createElement("button");
