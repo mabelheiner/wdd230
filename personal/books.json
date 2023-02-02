@@ -14,6 +14,20 @@
     },
 
     {
+        "bookName": "Cinder",
+        "author": "Marissa Meyer",
+        "published": "January 3, 2012",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1507557775i/36381037.jpg"
+    },
+
+    {
+        "bookName": "Go the Distance",
+        "author": "Jen Calonita",
+        "published": "April 6, 2021",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1607535553i/54817211.jpg"
+    },
+
+    {
         "bookName": "Red Queen",
         "author": "Victoria Aveyard",
         "published": "February 10, 2015",
