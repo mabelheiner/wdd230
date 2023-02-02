@@ -11,5 +11,19 @@
         "author": "Leigh Bardugo",
         "published": "September 27, 2016",
         "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1456172607i/22299763.jpg"
+    },
+
+    {
+        "bookName": "Red Queen",
+        "author": "Victoria Aveyard",
+        "published": "February 10, 2015",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1449778912i/22328546.jpg"
+    },
+
+    {
+        "bookName": "The Ballad of Songbirds and Snakes",
+        "author": "Suzanne Collins",
+        "published": "May 19, 2020",
+        "imageUrl": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1593892032i/51901147.jpg"
     }
 ]

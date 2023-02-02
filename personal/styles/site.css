@@ -60,21 +60,6 @@ nav a {
   }
 
 footer {
-    margin-top: 1em;
-    display: grid;
-    grid-template-areas: "image part1 part2"
-                        "bottom bottom bottom";
-    align-items: center;
-}
-
-.footer_img{
-    display: grid;
-    grid-area: image;
-}
-
-.part1{
-    display: grid;
-    grid-area: part1;
     text-align: center;
 }
 
@@ -158,10 +143,16 @@ div {
 book{
   border: 1px solid black;
   padding: 1em;
-  width: fit-content;
-  margin: 1em;
+  padding-top: 0em;
 }
 
 .book_menu{
   margin-left: 5em;
+}
+
+#star{
+  float: right;
+  background: none;
+  border-style: none;
+  font-size: 2em;
 }
