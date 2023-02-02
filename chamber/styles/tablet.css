@@ -5,14 +5,11 @@
     }
     
     main {
-        font-style: italic;
-        display: grid;
         grid-template-areas: "hero hero hero"
                             "news news news"
                             "spotlights spotlights spotlights"
                             "join join join"
                             "event event weather";
-        grid-gap: .5em;
     }
     
     .hero{

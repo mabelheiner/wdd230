@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
+body {
+  font-family: 'Playfair Display', serif;
+}
+
+.header_img, .footer_img{
+    float: left;
+    height: 120px;
+}
+
+.social_logo{
+    float: right;
+    height: 35px;
+}
+
+#today{
+    background-color: #E89F00;
+    border: 1px solid white;
+    display: block;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: 18px;
+    color: black;
+}
+
+header, footer{
+    background-color: #560216;
+    padding: 1em;
+    color: white;
+    text-align: center;
+}
+
+header{
+    margin-bottom: 1em;
+    text-align: center;
+}
+
+nav {
+    margin: auto;
+    padding: 1rem;
+}
+
+nav ul li:hover{
+    background-color: #CF920E;
+}
+
+nav ul {
+    list-style: none;  
+}
+  
+nav ul li {
+    min-width: 20%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: .5px solid white;
+    margin-bottom: .1em;
+    background-color: #E89F00;
+    color: black;
+}
+
+nav a {
+    display: block;
+    text-decoration: none;
+    color: black;
+  }
+
+footer {
+    margin-top: 1em;
+    display: grid;
+    grid-template-areas: "image part1 part2"
+                        "bottom bottom bottom";
+    align-items: center;
+}
+
+.footer_img{
+    display: grid;
+    grid-area: image;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.part2{
+    display: grid;
+    text-align: center;
+    grid-area: part2;
+}
+
+.bottom-footer {
+    width: 100%;
+    display: grid;
+    grid-area: bottom;
+    height: 30px;
+    border-top: .25px solid white
+}
+
+/*Hamburger Menu Stuff*/
+#hamburger-menu {
+    background-color: #560216;
+    font-size: 2rem;
+    color: white;
+    border: 1px solid white;
+    float: right;
+  }
+  
+  #navbar{
+    display: none;
+  }
+  
+  #menu-open{
+    display: none;
+  }
+  
+  #menu-close{
+    display: inline;
+  }
+  
+  #navbar.menu-active{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #menu-open.menu-active{
+    display: inline;
+  }
+  
+  #menu-close.menu-active{
+    display: none;
+  }
+
+  #meet-greet {
+    display: none;
+  }
+  
+  #meet-greet.active{
+    background-color: #E89F00;
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    border: 1px solid white;
+    padding: .1em;
+    margin-bottom: 1em;
+  }

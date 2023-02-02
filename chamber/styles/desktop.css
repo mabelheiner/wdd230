@@ -31,8 +31,6 @@
       }
     
     main {
-        font-style: italic;
-        display: grid;
         grid-template-areas: "event hero hero spotlights"
                             "weather hero hero spotlights"
                             "join news news spotlights";
@@ -107,4 +105,9 @@
     display: flex;
     flex-direction: row;
   }
+
+  #navbar.menu-active{
+    display: flex;
+    flex-direction: row;
+}
 }
