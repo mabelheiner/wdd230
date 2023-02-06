@@ -28,6 +28,10 @@ main {
     min-height: 150px;
 }
 
+.event img{
+    width: 350px;
+}
+
 .weather{
     display: block;
     grid-area: weather;
@@ -80,3 +84,4 @@ main {
     display: none;
     min-height: 150px;
 }
+

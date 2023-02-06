@@ -5,7 +5,6 @@ document.querySelector("#currentyear").textContent = today.getFullYear();
 // This sets last modified date on the home page
 document.querySelector('#lastmodified').textContent = document.lastModified;
 
-
 let bookList = [];
 
 function output(books){
@@ -57,7 +56,6 @@ function output(books){
             element.star = star.id
         });
     });
-    fs.writeFileSync("books.json",books,{encoding:'utf8',flag:'w'})
 }
 
 async function getBooks(){
@@ -120,3 +118,11 @@ function sortBy(){
 
 document.getElementById("sortBy").addEventListener("change", sortBy);
 sortBy();
+
+
+function saveData(bookList) {
+    const myJSON = JSON.stringify(bookList);
+    localStorage.setItem("testJSON", myJSON);
+}
+
+saveData(bookList);

@@ -42,12 +42,20 @@
         grid-area: hero;
         padding: 1em;
     }
+
+    .hero img{
+        width: 100%;
+    }
     
     .event{
         display: block;
         grid-area: event;
         padding: 1em;
         margin-left: 1em;
+    }
+    
+    .event img{
+        width: 350px;
     }
     
     .weather{
@@ -94,6 +102,10 @@
         grid-area: join;
         padding: 1em;
         margin-left: 1em;
+    }
+
+    .join img{
+        height: 150px;
     }
 
 /*hamburger menu*/
