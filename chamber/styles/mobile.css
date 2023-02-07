@@ -11,7 +11,7 @@ main {
 }
 
 .hero{
-    display: flex;
+    display: grid;
     grid-area: hero;
     border: 2px gray solid;
     background-color: lightgray;
@@ -20,7 +20,8 @@ main {
 }
 
 .hero img{
-    width: 350px;
+    width: 450px;
+    grid-area: hero;
 }
 
 .sign_up {
@@ -58,12 +59,8 @@ main {
 
 .weather img{
     display: flex;
-    position: absolute;
-    width: 400px;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+    width: 450px;
+    margin-top: 50%;
 }
 
 .news{
