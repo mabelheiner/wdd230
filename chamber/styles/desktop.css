@@ -38,7 +38,6 @@
     }
     
     .hero{
-        display: block;
         grid-area: hero;
         padding: 1em;
         position: relative;

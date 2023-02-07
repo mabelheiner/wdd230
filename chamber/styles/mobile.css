@@ -11,12 +11,26 @@ main {
 }
 
 .hero{
-    display: block;
+    display: flex;
     grid-area: hero;
     border: 2px gray solid;
     background-color: lightgray;
     padding: 1em;
     min-height: 150px;
+}
+
+.hero img{
+    width: 350px;
+}
+
+.sign_up {
+    padding: .5em;
+    background-color: #E89F00;
+    width: fit-content;
+}
+
+.sign_up:hover{
+    background-color: #CF920E;
 }
 
 .event{
