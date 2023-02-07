@@ -36,21 +36,29 @@
                             "join news news spotlights";
         grid-gap: 1em;
     }
-    
-    .hero{
-        grid-area: hero;
-        padding: 1em;
-        position: relative;
-    }
 
-    .hero img{
-        width: 100%;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-    }
+    /* The hero image */
+.hero-image {
+    grid-area: hero;
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: url("../images/Leroy_Town.png");
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  .hero-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
     
     .event{
         display: block;
@@ -60,7 +68,7 @@
     }
     
     .event img{
-        width: 350px;
+        width: 150px;
     }
     
     .weather{
