@@ -41,10 +41,16 @@
         display: block;
         grid-area: hero;
         padding: 1em;
+        position: relative;
     }
 
     .hero img{
         width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
     }
     
     .event{
