@@ -11,19 +11,16 @@ main {
 }
 
 .hero-image {
-    display: grid;
-    grid-area: hero;
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     background-image: url("../images/Leroy_Town.png");
   
     /* Set a specific height */
     height: 100%;
-  
-    /* Position and center the image to scale nicely on all screens */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+    
+    display: grid;
+    grid-area: hero;
+    border: 2px gray solid;
+    padding: 1em;
+    min-height: 300px;
   }
   
   /* Place text in the middle of the image */
