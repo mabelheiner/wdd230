@@ -50,6 +50,7 @@ main {
     background-color: lightgray;
     padding: 1em;
     min-height: 150px;
+    margin-top: 2em;
 }
 
 .weather{
