@@ -31,6 +31,7 @@
       }
     
     main {
+        grid-template-columns: 1fr 2fr 1fr;
         grid-template-areas: "event hero hero spotlights"
                             "weather hero hero spotlights"
                             "join news news spotlights";
