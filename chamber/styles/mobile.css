@@ -11,7 +11,7 @@ main {
 }
 
 .hero-image {
-    background-image: url("../images/Leroy_Town.png");
+    /*background-image: url("../images/Leroy_Town.png");*/
   
     /* Set a specific height */
     height: 100%;

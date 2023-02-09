@@ -42,7 +42,7 @@
 .hero-image {
     grid-area: hero;
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    background-image: url("../images/Leroy_Town.png");
+    /*background-image: url("../images/Leroy_Town.png");*/
   
     /* Position and center the image to scale nicely on all screens */
     background-position: center;
