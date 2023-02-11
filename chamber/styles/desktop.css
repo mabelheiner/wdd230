@@ -36,19 +36,33 @@
                             "weather hero hero spotlights"
                             "join news news spotlights";
         grid-gap: 1em;
+
     }
 
     /* The hero image */
+    /*
 .hero-image {
-    grid-area: hero;
+    grid-area: hero; */
     /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
     /*background-image: url("../images/Leroy_Town.png");*/
   
     /* Position and center the image to scale nicely on all screens */
+    /*
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+  }*/
+  
+
+  picture.hero-image{
+    display: flex;
+    grid-area: hero;
+    margin: 0em;
+    padding: 0em;
+    width: fit-content;
+    height: fit-content;
+    align-self: stretch;
   }
   
   /* Place text in the middle of the image */
