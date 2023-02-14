@@ -63,6 +63,7 @@
     width: fit-content;
     height: fit-content;
     position: absolute;
+    border: 2px gray solid;
   }
   
   /* Place text in the middle of the image */

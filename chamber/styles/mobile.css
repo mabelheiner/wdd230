@@ -37,6 +37,7 @@ main {
     width: fit-content;
     height: fit-content;
     position: absolute;
+    border: 2px gray solid;
   }
 
   .hero-text, .sign_up {
