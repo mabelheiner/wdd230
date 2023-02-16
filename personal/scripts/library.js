@@ -58,6 +58,7 @@ function output(books){
             element.star = star.id
         });
     });
+}
 
 async function getBooks(){
     const result = await fetch('books.json');
