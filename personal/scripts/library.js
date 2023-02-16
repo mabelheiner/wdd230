@@ -41,6 +41,8 @@ function output(books){
         book.appendChild(author);
         book.appendChild(published);
         book.appendChild(img);
+
+        //localStorage.setItem(book.title, JSON.stringify(book));
             
         document.getElementById("books").appendChild(book);
 
@@ -56,7 +58,6 @@ function output(books){
             element.star = star.id
         });
     });
-}
 
 async function getBooks(){
     const result = await fetch('books.json');

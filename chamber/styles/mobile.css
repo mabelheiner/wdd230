@@ -10,25 +10,6 @@ main {
     grid-gap: .5em;
 }
 
-/*
-.hero-image { */
-    /*background-image: url("../images/Leroy_Town.png");*/
-  
-    /* Set a specific height */ /*
-    height: 100%;
-    
-    display: grid;
-    grid-area: hero;
-    border: 2px gray solid;
-    padding: 1em;
-    min-height: 300px;
-  }
-
-.hero{
-    margin: 0em;
-    padding: 0em;
-} */
-
     .hero-image{
     display: grid;
     grid-area: hero;
