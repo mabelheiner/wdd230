@@ -30,6 +30,9 @@ main {
 
   .hero{
     position: relative;
+    display: grid;
+    grid-area: hero;
+    padding: 1em;
   }
 
   .hero-img img{
