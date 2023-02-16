@@ -38,41 +38,31 @@
         grid-gap: 1em;
 
     }
-
-    /* The hero image */
-    /*
-.hero-image {
-    grid-area: hero; */
-    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-    /*background-image: url("../images/Leroy_Town.png");*/
-  
-    /* Position and center the image to scale nicely on all screens */
-    /*
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }*/
   
 
-  picture.hero-image{
+  .hero-image picture{
     display: flex;
     grid-area: hero;
     margin: 0em;
     padding: 0em;
-    width: fit-content;
-    height: fit-content;
-    position: absolute;
     border: 2px gray solid;
+  }
+
+  .hero{
+    position: relative;
+    max-width: 100%;
+  }
+
+  .hero-image img{
+    max-width: 100%;
   }
   
   /* Place text in the middle of the image */
-  .hero-text, .sign_up {
+  .hero-text {
     text-align: center;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 25%;
+    left: 30%;
     color: #560216;
   }
     
