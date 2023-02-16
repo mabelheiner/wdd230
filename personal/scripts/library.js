@@ -42,7 +42,7 @@ function output(books){
         book.appendChild(published);
         book.appendChild(img);
 
-        //localStorage.setItem(book.title, JSON.stringify(book));
+        //localStorage.setItem(book[star], JSON.stringify(star.id));
             
         document.getElementById("books").appendChild(book);
 
@@ -55,9 +55,13 @@ function output(books){
                 star.id = "star_filled";
                 star.innerHTML = "★";
             }
-            element.star = star.id
+            element.star = star.id;
+            bookList = books;
+            saveData();
         });
     });
+    bookList = books;
+    saveData();
 }
 
 async function getBooks(){
@@ -76,6 +80,7 @@ async function getBooks(){
         }
     });
     output(bookList);
+    saveData();
    }
 }
 getBooks();
@@ -115,6 +120,7 @@ function sortBy(){
     })
     };
     output(bookList);
+    saveData();
 }
 // Step 9: Add a change event listener to the HTML element with an ID of sortBy that calls the sortBy function
 
@@ -122,9 +128,9 @@ document.getElementById("sortBy").addEventListener("change", sortBy);
 sortBy();
 
 
-function saveData(bookList) {
-    const myJSON = JSON.stringify(bookList);
-    localStorage.setItem("testJSON", myJSON);
+function saveData() {
+    const save_books = JSON.stringify(bookList);
+    localStorage.setItem("books.json", save_books);
 }
 
-saveData(bookList);
+saveData();
