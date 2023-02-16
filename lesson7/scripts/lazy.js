@@ -1,5 +1,5 @@
 // Gather the images to load
-let imagesToLoad = document.querySelectorAll("img[data-src]");
+let images = document.querySelectorAll("img[data-src]");
 
 // Set up the load images function which switches the src and the data-src attributes.
 const loadImages = (image) => {
@@ -29,6 +29,6 @@ let options = {
 const observer = new IntersectionObserver(callback, options);
 
 // Register each image with the intersection observer
-imagesToLoad.forEach((img) => {
+images.forEach((img) => {
   observer.observe(img);
 });
