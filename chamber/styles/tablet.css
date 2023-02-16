@@ -13,7 +13,7 @@
     }
     
     .hero{
-        display: block;
+        display: grid;
         grid-area: hero;
         padding: 1em;
     }
