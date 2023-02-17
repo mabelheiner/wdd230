@@ -142,3 +142,27 @@ main {
     min-height: 150px;
 }
 
+/* lazy loading */
+
+picture img[data-src]{
+  filter: blur(0.5em);
+  margin: 50px;
+
+}
+
+.leroy-sites{
+  display: grid;
+  filter: blur(0.0em);
+  transition: filter .5s;
+  margin: 5px;
+}
+
+.leroy-sites p{
+  display: block;
+  width: 300px;
+  margin-left: 25px;
+}
+
+.leroy-sites img{
+  padding: 1em;
+}
