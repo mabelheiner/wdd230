@@ -29,7 +29,7 @@ const callback = (items, observer) => {
 
 // Set up the options
 let options = {
-  threshold: 0.5,
+  threshold: 1,
 };
 
 // Create an observer
@@ -40,6 +40,8 @@ images.forEach((img) => {
   observer.observe(img);
 });
 
+
+/* day counter */
 const MILLIS_PER_DAY = 24 * 60 * 60 * 1000;
 let lastVisitString = localStorage.getItem("lastVisit");
 let visitspan = document.querySelector('#days-since-visit');

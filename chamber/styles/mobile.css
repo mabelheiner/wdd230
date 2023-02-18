@@ -147,17 +147,17 @@ picture{
   border: 2px solid black;
 }
 
-picture img[data-src]{
-  filter: blur(0.0em);
-  margin-bottom: 0em;
-}
-
 picture img{
+  filter: blur(0.0em);
   width: 300px;
 }
 
+picture img[data-src]{
+  filter: blur(0.5em);
+  margin-bottom: 0em;
+}
+
 .leroy-sites{
-  filter: blur(0.0em);
   transition: filter .5s;
   display: flex;
   flex-direction: column;
