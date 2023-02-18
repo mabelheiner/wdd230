@@ -152,6 +152,10 @@ picture{
   width: 300px;
 }
 
+.leroy-sites picture:hover{
+  box-shadow: 5px 5px 5px 5px #560216;
+}
+
 .leroy-sites picture img[data-src]{
   filter: blur(0.5em);
   margin-bottom: 0em;
