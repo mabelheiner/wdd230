@@ -143,26 +143,29 @@ main {
 }
 
 /* lazy loading */
+picture{
+  border: 2px solid black;
+}
 
 picture img[data-src]{
-  filter: blur(0.5em);
-  margin: 50px;
+  filter: blur(0.0em);
+  margin-bottom: 0em;
+}
 
+picture img{
+  width: 300px;
 }
 
 .leroy-sites{
-  display: grid;
   filter: blur(0.0em);
   transition: filter .5s;
-  margin: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
 .leroy-sites p{
-  display: block;
   width: 300px;
-  margin-left: 25px;
-}
-
-.leroy-sites img{
-  padding: 1em;
+  padding-bottom: 1em;
 }

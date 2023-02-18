@@ -1,6 +1,6 @@
-var messagedate = new Date();
+var msgDate = new Date();
 
-if (messagedate.getDay()==1 || messagedate.getDay()==2) {
+if (msgDate.getDay()==1 || msgDate.getDay()==2) {
     document.querySelector("#meet-greet").classList.add("active");
 }
 
@@ -29,7 +29,7 @@ const callback = (items, observer) => {
 
 // Set up the options
 let options = {
-  threshold: 0.1,
+  threshold: 0.5,
 };
 
 // Create an observer
@@ -39,3 +39,18 @@ const observer = new IntersectionObserver(callback, options);
 images.forEach((img) => {
   observer.observe(img);
 });
+
+const MILLIS_PER_DAY = 24 * 60 * 60 * 1000;
+let lastVisitString = localStorage.getItem("lastVisit");
+let visitspan = document.querySelector('#days-since-visit');
+console.log(lastVisitString);
+
+if (lastVisitString==null){        
+    visitspan.textContent = '0';
+}
+else{
+    lastVisitDate=new Date(lastVisitString);
+    daysSinceLastVisit = Math.floor((today.getTime() - lastVisitDate.getTime()) / MILLIS_PER_DAY);
+    visitspan.textContent = daysSinceLastVisit;
+}
+localStorage.setItem("lastVisit", today.toLocaleDateString());
