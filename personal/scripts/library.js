@@ -65,6 +65,10 @@ function output(books){
 async function getBooks(){
     const data = localStorage.getItem("books.json");
     bookList = JSON.parse(data);
+
+    /* const result = await fetch('books.json');
+    if (result.ok){
+        bookList = await result.json(); */
         
     bookList.sort(function (a, b) { 
         let a_author_last = a.author.split(' ').slice(-1);  
@@ -78,7 +82,6 @@ async function getBooks(){
     });
     output(bookList);
    }
-
 getBooks();
 
 function reset(){
