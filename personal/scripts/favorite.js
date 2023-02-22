@@ -54,15 +54,18 @@ function output(books){
                         star.innerHTML = "★";
                     }
                     element.star = star.id
+                    bookList = books;
+                    saveData();
                 });
+                
             });
-            fs.writeFileSync("books.json",books,{encoding:'utf8',flag:'w'})
+    bookList = books;
+    saveData();
 }
 
 async function getBooks(){
-    const result = await fetch('books.json');
-   if (result.ok){
-        bookList = await result.json();
+    const data = localStorage.getItem("books.json");
+    bookList = JSON.parse(data);
         
     bookList.sort(function (a, b) { 
         let a_author_last = a.author.split(' ').slice(-1);  
@@ -76,7 +79,8 @@ async function getBooks(){
     });
     output(bookList);
    }
-}
+
+
 getBooks();
 
 function reset(){
@@ -114,7 +118,17 @@ function sortBy(){
     })
     };
     output(bookList);
+    saveData();
 }
 // Step 9: Add a change event listener to the HTML element with an ID of sortBy that calls the sortBy function
 
+document.getElementById("sortBy").addEventListener("change", sortBy);
 sortBy();
+
+
+function saveData() {
+    localStorage.setItem("books.json", JSON.stringify(bookList));
+    console.log("saved books");
+    console.log(bookList);
+}
+saveData();

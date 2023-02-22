@@ -63,9 +63,8 @@ function output(books){
 }
 
 async function getBooks(){
-    const result = await fetch('books.json');
-   if (result.ok){
-        bookList = await result.json();
+    const data = localStorage.getItem("books.json");
+    bookList = JSON.parse(data);
         
     bookList.sort(function (a, b) { 
         let a_author_last = a.author.split(' ').slice(-1);  
@@ -79,7 +78,6 @@ async function getBooks(){
     });
     output(bookList);
    }
-}
 
 getBooks();
 
@@ -127,8 +125,8 @@ sortBy();
 
 
 function saveData() {
-    const save_books = JSON.stringify(bookList);
-    localStorage.setItem("books.json", save_books);
+    localStorage.setItem("books.json", JSON.stringify(bookList));
+    console.log("saved books");
+    console.log(bookList);
 }
-
 saveData();
