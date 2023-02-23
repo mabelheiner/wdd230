@@ -22,6 +22,6 @@
     
     <h2>Satisfaction: <input type="range" id="satisfaction" oninput="setValue(this.value)" size="2" name="satisfaction" min="1" max="5" value="3"> (<span id="sat_value"></span>)</h2>
     
-    <h2>Password: <input type="password" name="pwd2" required></h2>
+    <h2>Password: <input type="password" name="pwd2" required pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"></h2>
 </body>
 </html>
