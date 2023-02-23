@@ -11,11 +11,17 @@
 </head>
 <body>
     <h2>Your Name: <input type="text" name="name" placeholder="Joe Smith" required></h2>
+    
     <h2>Email Address: <input type="email" name="email_address" placeholder="Enter a valid email address" required></h2>
+    
     <h2>Phone: <input type="tel" name="phone" placeholder="123-456-7890" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"></h2>
+    
     <h2>Website:  <input type="url" name="website" placeholder="https://google.com" required pattern="https?://.+"></h2>
+    
     <h2>Age: <input type="number" size="6" name="age" min="18" max="99" value="21"></h2>
+    
     <h2>Satisfaction: <input type="range" id="satisfaction" oninput="setValue(this.value)" size="2" name="satisfaction" min="1" max="5" value="3"> (<span id="sat_value"></span>)</h2>
-    <h2>Password: <input type="password" required name="pwd2"></h2>
+    
+    <h2>Password: <input type="password" name="pwd2" required></h2>
 </body>
 </html>
