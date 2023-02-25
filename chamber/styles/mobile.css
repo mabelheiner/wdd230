@@ -169,3 +169,7 @@ picture{
   width: 300px;
   padding-bottom: 1em;
 }
+
+form {
+  margin-left: 1em;
+}

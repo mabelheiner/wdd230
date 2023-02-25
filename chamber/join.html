@@ -14,7 +14,6 @@
     <link rel="stylesheet" href="./styles/desktop.css">
     <script src="./scripts/header-footer.js" defer></script>
     <script src="./scripts/main.js" defer></script>
-    <script src="./scripts/windchill.js" defer></script>
 </head>
 <body>
     <body>
@@ -40,9 +39,9 @@
         <nav>        
             <ul id="navbar">
                 <li><a href="index.html">Home</a></li>
-                <li>Discover</li>
+                <li><a href="discover.html">Discover</a></li>
                 <li>Directory</li>
-                <li><a href="join.html">Join</a></li>
+                <li>Join</li>
                 <li>Contact</li>
             </ul>
         </nav>
@@ -51,28 +50,28 @@
         </div>
         </header>
 
-        <main class="leroy-sites">
-            <h2>Welcome back!<br>It has been <span id="days-since-visit">0</span> days since your last visit.</h2>
-            <picture>
-                <img src="./images/Jacks_Cafe.jpg" data-src="./images/Jacks_Cafe.jpg" alt="Jack's Cafe">
-                <p>Jack's Cafe is a wonderful place to stop for a good meal. It is located across the street from the Casey's Gas Station <br> You can see it from the highway!</p>
-            </picture>
-            <picture>
-                <img src="./images/Woodys_Diner.jpg" data-src="./images/Woodys_Diner.jpg" alt="Woody's Diner">
-                <p>Woody's Diner will transport you back to the 50s! Milkshakes and jukeboxes decorate this unique food place!</p>
-            </picture>
-            <picture>
-                <img src="./images/clinton_lake.jpg" data-src="./images/clinton_lake.jpg" alt="Clinton Lake">
-                <p>This beautiful lake has places to boat, jet ski, and relax on. It is the place for a wonderful afternoon by yourself or with your family.</p>
-            </picture>
-            <picture>
-                <img src="./images/princess_theater.jpg" data-src="./images/princess_theater.jpg" alt="Princess Theater">
-                <p>The Princess Theater produces wonderful shows for the family. You can come there by yourself or make a reservation to take the whole family.</p>
-            </picture>
-            <picture>
-                <img src="./images/replex.jpg" data-src="./images/replex.jpg" alt="Leroy Replex">
-                <p>The Leroy Replex is the perfect place to go for a nice workout. It has a complete track and indoor and outdoor pool areas. Daycare services are available for kids less than 5 years of age.</p>
-            </picture>            
+        <main>
+            <form>
+                <p>First Name*</p>
+                <input type="text" name="first" required>
+
+                <p>Last Name*</p>
+                <input type="text" name="last" required>
+
+                <p>Title</p>
+                <input type="text" name="title">
+
+                <p>Email*</p>
+                <input type="email" name="email" required>
+
+                <p>Cell Phone*</p>
+                <input type="tel" name="phone" required>
+
+                <p>Business Name*</p>
+                <input type="text" name="business" required>
+
+                <p></p>
+            </form>
         </main>
     
         <footer>
