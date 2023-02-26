@@ -143,9 +143,6 @@ main {
 }
 
 /* lazy loading */
-picture{
-  border: 2px solid black;
-}
 
 .leroy-sites picture img{
   filter: blur(0.0em);
