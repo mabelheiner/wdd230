@@ -164,4 +164,8 @@ form{
 .thanks{
     text-align: center;
 }
+.join-button{
+    background-color: #560216;
+    color: white;
+}
 }
