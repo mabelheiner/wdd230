@@ -51,27 +51,48 @@
 
         <main>
             <form method="GET" action="thank_you.html">
-                <p>First Name*</p>
+                <label for="first">First Name*</label>
                 <input type="text" name="first" required>
+                <br>
 
-                <p>Last Name*</p>
+                <label for="last">Last Name*</label>
                 <input type="text" name="last" required>
+                <br>
 
-                <p>Title</p>
+                <label for="title">Title</label> <br>
                 <input type="text" name="title" pattern="[A-Za-z -]{7,}">
+                <br>
 
-                <p>Email*</p>
+                <label for="email">Email*</label>
                 <input type="email" name="email" placeholder="johnsmith@gmail.com" required>
+                <br>
 
-                <p>Cell Phone*</p>
+                <label for="phone">Cell Phone*</label>
                 <input type="tel" name="phone" required>
+                <br>
 
-                <p>Business Name*</p>
+                <label for="business">Business Name*</label>
                 <input type="text" name="business" required>
+                <br>
 
-                <p>Description of Business</p>
+                <label for="membership">Membership Level*</label> <br>
+                <input type="radio" id="Bronze" name="membership" value="Bronze">
+                <label for="membership">Bronze</label>
+                <br>
+
+                <input type="radio" id="Silver" name="membership" value="Silver">
+                <label for="membership">Silver</label>
+                <br>
+
+                <input type="radio" id="Gold" name="membership" value="Gold">
+                <label for="membership">Gold</label>
+                <br>
+                <br>
+
+                <label for="business_description">Description of Business</label>
                 <textarea name="business_description" id="business_description" cols="20" rows="10"></textarea>
-                
+                <br>
+
                 <input type="hidden" name="date" id="current_date" value>
                 <input type="submit" value="Join Here!" class="join-button">
 
