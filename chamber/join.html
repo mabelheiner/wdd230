@@ -52,19 +52,19 @@
         <main>
             <form method="GET" action="thank_you.html">
                 <label for="first">First Name*</label>
-                <input type="text" name="first" required>
+                <input type="text" name="first" id="first" required>
                 <br>
 
                 <label for="last">Last Name*</label>
-                <input type="text" name="last" required>
+                <input type="text" name="last" id="last" required>
                 <br>
 
                 <label for="title">Title</label> <br>
-                <input type="text" name="title" pattern="[A-Za-z -]{7,}">
+                <input type="text" name="title" id="title" pattern="[A-Za-z -]{7,}">
                 <br>
 
                 <label for="email">Email*</label>
-                <input type="email" name="email" placeholder="johnsmith@gmail.com" required>
+                <input type="email" name="email" id="email" placeholder="johnsmith@gmail.com" required>
                 <br>
 
                 <label for="phone">Cell Phone*</label>
@@ -72,7 +72,7 @@
                 <br>
 
                 <label for="business">Business Name*</label>
-                <input type="text" name="business" required>
+                <input type="text" name="business" id="business" required>
                 <br>
 
                 <label for="membership">Membership Level*</label> <br>
@@ -95,7 +95,6 @@
 
                 <input type="hidden" name="date" id="current_date" value>
                 <input type="submit" value="Join Here!" class="join-button">
-
             </form>
 
             <div class="member_info">
