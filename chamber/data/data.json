@@ -1,0 +1,22 @@
+{
+    "businesses": [
+        {
+            "name":"Business Example",
+            "streetAddress":"123 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"123-456-7890",
+            "websiteUrl":"https://mabelheiner.github.io/wdd230/chamber/images/Jacks_Cafe.jpg",
+            "imageUrl":"https://google.com",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"Business Example",
+            "streetAddress":"123 Main Street",
+            "cityStateZip":"Rexburg, ID 83440",
+            "phoneNumber":"123-456-7890",
+            "websiteUrl":"https://mabelheiner.github.io/wdd230/chamber/images/Jacks_Cafe.jpg",
+            "imageUrl":"https://google.com",
+            "membershipLevel":"gold"
+        }
+    ]
+}
