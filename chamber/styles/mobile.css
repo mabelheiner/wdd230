@@ -167,3 +167,7 @@ main {
   width: 300px;
   padding-bottom: 1em;
 }
+
+fieldset{
+  border-style: none;
+}
