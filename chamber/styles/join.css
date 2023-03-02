@@ -20,9 +20,11 @@ form{
     border: 1px solid gold;
     padding: 1em;
 }
-.thanks{
+
+h1{
     text-align: center;
 }
+
 .join-button{
     background-color: #560216;
     color: white;
