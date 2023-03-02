@@ -68,6 +68,7 @@ main {
     padding: .5em;
     background-color: #E89F00;
     width: fit-content;
+    border-style: none;
 }
 
 .sign_up:hover{
@@ -165,8 +166,4 @@ main {
 .leroy-sites p{
   width: 300px;
   padding-bottom: 1em;
-}
-
-form {
-  margin-left: 1em;
 }
