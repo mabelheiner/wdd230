@@ -6,6 +6,7 @@ const displayProphets = (prophets) => {
     prophets.forEach((prophet) => {
       // Create elements to add to the div.cards element
       let card = document.createElement('section');
+      card.setAttribute('class', "card")
       let h2 = document.createElement('h2');
       let dob = document.createElement('h3');
       let pob = document.createElement('h3');

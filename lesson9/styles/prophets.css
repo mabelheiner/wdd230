@@ -1,9 +1,12 @@
 .cards{
-    justify-content: center;
-    text-align: center;
-
-    border: 1px solid black;
-
     display: grid;
-    grid-template-columns: minmax(200px, 1fr)
+    grid-template-columns: minmax(400px, auto) 1fr 1fr;
+}
+
+.card{
+    display: grid;
+    border: 1px solid black;
+    width: fit-content;
+    padding: 1em;
+    margin: 1em;
 }
