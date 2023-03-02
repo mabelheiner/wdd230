@@ -1,0 +1,38 @@
+main{
+    border: 1px solid black;
+    padding: 1em;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "form"
+                        "member_info";
+}
+
+form{
+    display: grid;
+    grid-area: form;
+    border: 1px solid darkred;
+    padding: 1em;
+}
+.member_info{
+    display: grid;
+    grid-area: member_info;
+    border: 1px solid gold;
+    padding: 1em;
+}
+.thanks{
+    text-align: center;
+}
+.join-button{
+    background-color: #560216;
+    color: white;
+}
+
+@media (min-width: 600px){
+    main{
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "form member_info";
+    }
+}
+
+
