@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&display=swap');
+
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
@@ -5,8 +7,22 @@
 
 .card{
     display: grid;
-    border: 1px solid black;
+    border: 1px solid darkblue;
     width: fit-content;
     padding: 1em;
     margin: 1em;
+    background-color: lightblue;
+}
+
+.card:hover{
+    box-shadow: 4px 4px 4px darkblue;
+}
+
+img{
+    box-shadow: 5px 5px 10px black;
+}
+
+h2, h3{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
 }
