@@ -34,6 +34,7 @@ const displayBusinesses = (businesses) => {
   businesses.forEach((business) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
+    card.classList.add('card');
     card.innerHTML = `
     <img src="${business.imageURL}">
     <p>${business.name}</p>

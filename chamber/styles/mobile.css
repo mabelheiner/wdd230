@@ -171,3 +171,70 @@ main {
 fieldset{
   border-style: none;
 }
+
+.directory-cards{
+  border: 1px solid black;
+}
+
+.directory-grid:active{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+}
+
+.directory-list:active{    
+  display: grid;
+  justify-items: center;   
+  padding: 1rem;    
+}
+
+.card{
+  border: 1px solid #560216
+}
+
+/*Grid*/
+.directory-cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  justify-items: center;
+}
+
+.directory-cards section{
+  text-align: center;    
+  border: 2px solid #560216;    
+  width: 300px;
+  background-color: #560216;
+  padding: 1rem;
+  margin: .5rem;
+  color: white;
+}
+
+.directory-cards .gold-member{
+  box-shadow: inset 1rem 1rem #CF920E;
+}
+
+/*list*/
+.directory-list{    
+  display: grid;
+  justify-items: center;   
+  padding: 1rem;    
+}
+
+.directory-list section img{
+  display: none;
+}
+
+.directory-list section {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  width: 70%;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.directory-list section:nth-child(odd) {
+  background-color: #E89F00;
+}
+
+.directory-list section:nth-child(even) {
+  background-color: #CF920E;
+}
