@@ -224,11 +224,12 @@ section img{
   display: grid;
   text-align: center;    
   border: 2px solid #560216;    
-  width: fit-content;
+  width: 280px;
   background-color: #560216;
   padding: 1em;
   margin: 1em;
   color: white;
+  justify-content: center;
 }
 
 .directory-cards .gold-member{
