@@ -193,6 +193,10 @@ section img{
   margin-top: 1em;
 }
 
+section a:hover{
+  color: #CF920E;
+}
+
 .directory-main{
   display: block;
   width: 100%;
