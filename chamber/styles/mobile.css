@@ -217,7 +217,7 @@ section img{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
-  grid-gap: 5em;
+  grid-gap: 1em;
 }
 
 .directory-cards section{
