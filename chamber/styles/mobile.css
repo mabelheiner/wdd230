@@ -172,10 +172,6 @@ fieldset{
   border-style: none;
 }
 
-.directory-cards{
-  border: 1px solid black;
-}
-
 .directory-grid:active{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
@@ -187,29 +183,56 @@ fieldset{
   padding: 1rem;    
 }
 
-.card{
-  border: 1px solid #560216
+section{
+  border: 1px solid #560216;
+  justify-items: center;
+}
+
+section img{
+  width: 200px;
+  margin-top: 1em;
+}
+
+.directory-main{
+  display: block;
+  width: 100%;
+}
+
+#directory-selector{
+  width: 100%;
+  text-align: center;
+}
+
+#directory-selector button{
+  background-color: #E89F00;
+}
+
+#directory-selector button:active{
+  background-color: #560216;
+  color: white;
 }
 
 /*Grid*/
 .directory-cards{
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   justify-items: center;
+  grid-gap: 5em;
 }
 
 .directory-cards section{
+  display: grid;
   text-align: center;    
   border: 2px solid #560216;    
-  width: 300px;
+  width: fit-content;
   background-color: #560216;
-  padding: 1rem;
-  margin: .5rem;
+  padding: 1em;
+  margin: 1em;
   color: white;
 }
 
 .directory-cards .gold-member{
-  box-shadow: inset 1rem 1rem #CF920E;
+  box-shadow: 1rem 1rem #CF920E;
 }
 
 /*list*/

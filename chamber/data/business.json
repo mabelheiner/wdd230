@@ -5,8 +5,8 @@
             "streetAddress":"502 W Washington St",
             "cityStateZip":"Le Roy, IL 61752",
             "phoneNumber":"(309) 962-9203",
-            "websiteUrl":"https://www.hailautomotive.com/",
-            "imageUrl":"https://www.hailautomotive.com/wp-content/uploads/2018/08/IMG_0021-1024x683.jpg",
+            "websiteURL":"https://www.hailautomotive.com/",
+            "imageURL":"https://www.hailautomotive.com/wp-content/uploads/2018/08/IMG_0021-1024x683.jpg",
             "membershipLevel":"gold"
         },
         {
@@ -14,9 +14,63 @@
             "streetAddress":"300 E Center St",
             "cityStateZip":"Le Roy, IL 61752",
             "phoneNumber":"(309) 962-2468",
-            "websiteUrl":"http://leroyprincess.com/",
-            "imageUrl":"http://photos.cinematreasures.org/production/photos/124074/1430513967/large.jpg?1430513967",
+            "websiteURL":"http://leroyprincess.com/",
+            "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
             "membershipLevel":"gold"
+        },
+        {
+            "name":"Hail Automotive, LLC",
+            "streetAddress":"502 W Washington St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-9203",
+            "websiteURL":"https://www.hailautomotive.com/",
+            "imageURL":"https://www.hailautomotive.com/wp-content/uploads/2018/08/IMG_0021-1024x683.jpg",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"Princess Theater",
+            "streetAddress":"300 E Center St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-2468",
+            "websiteURL":"http://leroyprincess.com/",
+            "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
+            "membershipLevel":"silver"
+        },
+        {
+            "name":"Hail Automotive, LLC",
+            "streetAddress":"502 W Washington St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-9203",
+            "websiteURL":"https://www.hailautomotive.com/",
+            "imageURL":"https://www.hailautomotive.com/wp-content/uploads/2018/08/IMG_0021-1024x683.jpg",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"Princess Theater",
+            "streetAddress":"300 E Center St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-2468",
+            "websiteURL":"http://leroyprincess.com/",
+            "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
+            "membershipLevel":"silver"
+        },
+        {
+            "name":"Hail Automotive, LLC",
+            "streetAddress":"502 W Washington St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-9203",
+            "websiteURL":"https://www.hailautomotive.com/",
+            "imageURL":"https://www.hailautomotive.com/wp-content/uploads/2018/08/IMG_0021-1024x683.jpg",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"Princess Theater",
+            "streetAddress":"300 E Center St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-2468",
+            "websiteURL":"http://leroyprincess.com/",
+            "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
+            "membershipLevel":"silver"
         }
     ]
 }

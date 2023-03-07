@@ -1,5 +1,3 @@
-// Toggle active/not active buttons
-
 var gridSelector = document.querySelector('#directory-grid');
 var listSelector = document.querySelector('#directory-list');
 var directoryData = document.querySelector('#directory-data');
@@ -34,13 +32,12 @@ const displayBusinesses = (businesses) => {
   businesses.forEach((business) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
-    card.classList.add('card');
     card.innerHTML = `
     <img src="${business.imageURL}">
     <p>${business.name}</p>
     <p>${business.streetAddress}</p>
     <p>${business.cityStateZip}</p>
-    <p><a href="${business.websiteURL}">${business.websiteURL}</a></p>
+    <p><a href="${business.websiteURL}" target="_blank">${business.websiteURL}</a></p>
     `;
     if (business.membershipLevel=='gold'){
       card.classList.add('gold-member');
