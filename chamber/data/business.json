@@ -19,58 +19,95 @@
             "membershipLevel":"gold"
         },
         {
-            "name":"Hail Automotive, LLC",
-            "streetAddress":"502 W Washington St",
+            "name":"150 Speed Shop",
+            "streetAddress":"208 N Walnut St",
             "cityStateZip":"Le Roy, IL 61752",
-            "phoneNumber":"(309) 962-9203",
+            "phoneNumber":"(309) 445-3606",
+            "websiteURL":"https://150speedshop.com/",
+            "imageURL":"",
+            "membershipLevel":"gold"
+        },
+        {
+            "name":"American Legion Ruel Neal Post #79",
+            "streetAddress":"100 N Main St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-3341",
+            "websiteURL":"https://www.facebook.com/americanlegionruelnealpost79/?rf=197928760274231",
+            "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
+            "membershipLevel":"silver"
+        },
+        {
+            "name":"John's Barbershop",
+            "streetAddress":"116 N Chestnut St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-8012",
             "websiteURL":"https://www.hailautomotive.com/",
             "imageURL":"https://www.hailautomotive.com/wp-content/uploads/2018/08/IMG_0021-1024x683.jpg",
             "membershipLevel":"gold"
         },
         {
-            "name":"Princess Theater",
-            "streetAddress":"300 E Center St",
+            "name":"Cut, Curl & More",
+            "streetAddress":"307 N Walnut St",
             "cityStateZip":"Le Roy, IL 61752",
-            "phoneNumber":"(309) 962-2468",
+            "phoneNumber":"(309) 962-2875",
             "websiteURL":"http://leroyprincess.com/",
             "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
             "membershipLevel":"silver"
         },
         {
-            "name":"Hail Automotive, LLC",
-            "streetAddress":"502 W Washington St",
+            "name":"Aaron Johnson Construction",
+            "streetAddress":"203 N White",
             "cityStateZip":"Le Roy, IL 61752",
-            "phoneNumber":"(309) 962-9203",
+            "phoneNumber":"(309) 275-0440",
             "websiteURL":"https://www.hailautomotive.com/",
             "imageURL":"https://www.hailautomotive.com/wp-content/uploads/2018/08/IMG_0021-1024x683.jpg",
             "membershipLevel":"gold"
         },
         {
-            "name":"Princess Theater",
-            "streetAddress":"300 E Center St",
+            "name":"Lilly Construction",
+            "streetAddress":"301 W Oak",
             "cityStateZip":"Le Roy, IL 61752",
-            "phoneNumber":"(309) 962-2468",
+            "phoneNumber":"(309) 530-1318",
             "websiteURL":"http://leroyprincess.com/",
             "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
             "membershipLevel":"silver"
         },
         {
-            "name":"Hail Automotive, LLC",
-            "streetAddress":"502 W Washington St",
+            "name":"Bargmann General Dentistry",
+            "streetAddress":"102 E Center St",
             "cityStateZip":"Le Roy, IL 61752",
-            "phoneNumber":"(309) 962-9203",
-            "websiteURL":"https://www.hailautomotive.com/",
-            "imageURL":"https://www.hailautomotive.com/wp-content/uploads/2018/08/IMG_0021-1024x683.jpg",
-            "membershipLevel":"gold"
+            "phoneNumber":"(309) 962-5080",
+            "websiteURL":"http://leroyprincess.com/",
+            "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
+            "membershipLevel":"silver"
         },
         {
-            "name":"Princess Theater",
-            "streetAddress":"300 E Center St",
+            "name":"Country Financial",
+            "streetAddress":"101 East Cherry Street",
             "cityStateZip":"Le Roy, IL 61752",
-            "phoneNumber":"(309) 962-2468",
+            "phoneNumber":"(309) 962-2616",
+            "websiteURL":"http://leroyprincess.com/",
+            "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
+            "membershipLevel":"silver"
+        },
+        {
+            "name":"Le Roy Florist & Garden Shop",
+            "streetAddress":"400 N Walnut St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-5800",
+            "websiteURL":"http://leroyprincess.com/",
+            "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
+            "membershipLevel":"silver"
+        },
+        {
+            "name":"Calvert-Belangee-Bruce Funeral Home",
+            "streetAddress":"101 W Center St",
+            "cityStateZip":"Le Roy, IL 61752",
+            "phoneNumber":"(309) 962-3191",
             "websiteURL":"http://leroyprincess.com/",
             "imageURL":"https://live.staticflickr.com/1101/4725392750_a82a3f643b_b.jpg",
             "membershipLevel":"silver"
         }
+        
     ]
 }
