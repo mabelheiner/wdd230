@@ -10,31 +10,22 @@ main {
     grid-gap: .5em;
 }
 
-    .hero-image{
-    display: grid;
-    grid-area: hero;
-    margin: 0em;
-    padding: 0em;
-    width: fit-content;
-    height: fit-content;
-    border: 2px gray solid;
-  }
-
   .hero-text, .sign_up {
     display: block;
     grid-area: hero;
   }
 
   .hero{
-    position: relative;
     display: grid;
     grid-area: hero;
-    padding: 1em;
-    justify-content: flex-start;
-  }
-
-  .hero-img img{
-    max-width: 100%;
+    background-image: url("../images/Leroy_Town.png");
+    border: 2px gray solid;
+    position: relative;        
+    background-position: center;
+    text-align: center;
+    height: 400px;  
+    align-items: center;
+    justify-content: center;
   }
 
   .hero-text{
@@ -48,22 +39,6 @@ main {
     padding: .1em;
     color: white;
     background-color: #560216;
-  }
-
-  .hero-image picture{
-    display: flex;
-    grid-area: hero;
-    margin: 0em;
-    padding: 0em;
-    border: 2px gray solid;
-  }
-
-  .hero{
-    position: relative;
-  }
-
-  .hero-img img{
-    max-width: 100%;
   }
   
   
