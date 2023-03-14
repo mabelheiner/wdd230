@@ -10,24 +10,16 @@ main{
 form{
     display: grid;
     grid-area: form;
-    border: 3px solid darkred;
-    background-color: #E89F00;
+    border: 2px gray solid;
+    background-color: lightgray;
     padding: 1em;
 }
 .member_info{
     display: grid;
     grid-area: member_info;
-    border: 3px solid darkred;
-    background-color: #E89F00;
+    border: 2px gray solid;
+    background-color: lightgray;
     padding: 1em;
-}
-
-input{
-    background-color: #E89F00;
-}
-
-textarea{
-    background-color: #E89F00;
 }
 
 .thanks{
