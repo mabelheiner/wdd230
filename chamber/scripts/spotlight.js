@@ -1,19 +1,26 @@
 const displayBusinesses = (businesses) => {
     const cards = document.querySelector(".spotlights"); // select the output container element
-    let spots = 0
+    spotlights = [];
+      
+      let businessList = businesses.filter(x => x.membershipLevel == 'gold' || x.membershipLevel == 'silver');
+      for (let i=0; i<3; i++){
+        var spot = Math.floor(Math.random() * businessList.length)
+        spotlights.push(businessList.splice(spot, 1));
+      }
 
-    businesses.forEach((business) => {
+    console.log("Here is the spotlight data", spotlights);
+    console.log("here is a spotlight", spotlights[1])
+
+    spotlights.forEach((spotlight) => {
       // Create elements to add to the div.cards element
       let card = document.createElement("div");
-      
-      while (business.membershipLevel == 'gold' && spots < 4){
-        card.innerHTML = `
-        <p>${business.name}</p>
-        <img src="${business.imageURL}">`;
-        spots = spots + 1}
+      card.classList.add('spotlight1');
+      card.innerHTML = `
+      <p>${spotlight.name}</p>
+      <img src="${spotlight.imageUrl}">`
       cards.appendChild(card);
     }); 
-  }; 
+}; 
 
 async function getBusinessData() {
     const response = await fetch("./data/business.json");
