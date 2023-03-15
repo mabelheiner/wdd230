@@ -12,12 +12,13 @@ const displayBusinesses = (businesses) => {
     console.log("here is a spotlight", spotlights[1])
 
     spotlights.forEach((spotlight) => {
+      console.log("spotlight info", spotlight);
       // Create elements to add to the div.cards element
       let card = document.createElement("div");
       card.classList.add('spotlight1');
       card.innerHTML = `
-      <p>${spotlight.name}</p>
-      <img src="${spotlight.imageUrl}">`
+      <p>${spotlight[0].name}</p>
+      <img src="${spotlight[0].imageURL}">`
       cards.appendChild(card);
     }); 
 }; 

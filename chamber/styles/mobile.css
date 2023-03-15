@@ -105,6 +105,13 @@ main {
     background-color: lightgray;
     padding: 1em;
     min-height: 150px;
+    align-items: center;
+    text-align: center;
+}
+
+.spotlight1 img{
+  height: 150px;
+  border: 2px gray solid;
 }
 
 .spotlight2{

@@ -1,7 +1,6 @@
 var today_date = new Date();
 var hidden_date = document.querySelector("#current_date")
 hidden_date.value = today_date.toLocaleDateString(); 
-console.log(hidden_date.value);
 localStorage.setItem("hidden_date", hidden_date.value)
 
 var msgDate = new Date();
