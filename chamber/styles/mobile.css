@@ -233,7 +233,7 @@ section a:hover{
 .directory-list{    
   display: grid;
   justify-items: center;   
-  padding: 1rem;    
+  padding: 1rem;  
 }
 
 .directory-list section img{
@@ -246,6 +246,10 @@ section a:hover{
   width: 70%;
   padding-left: 1rem;
   padding-right: 1rem;
+}
+
+.directory-list a{
+  color: black;
 }
 
 .directory-list section:nth-child(odd) {
