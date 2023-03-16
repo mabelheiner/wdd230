@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Sites and Places to see in Leroy, Illinois">
-    <title>Thank You for Joining Leroy, Illinois Chamber of Commerce</title>
+    <meta name="description" content="Submit a Request to Leroy, Illinois">
+    <title>Contact the Chamber of Commerce in Leroy, Illinois</title>
     <link rel="icon" href="./Leroy_Logo.ico">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="./styles/header-footer.css">
@@ -24,7 +24,7 @@
             <a href="index.html">
                 <img class="header_img" src="./images/Leroy_Logo_4.webp" alt="Small Town, Big Heart">
             </a>
-
+            
             <a href="https://www.instagram.com/leroypantherathletics/" target="_blank">
                 <img class="social_logo" src="./images/instagram_logo.png" alt="Instagram">
             </a>
@@ -52,15 +52,64 @@
         </div>
         </header>
 
-        <div class="thanks">
-            <h1>Thank You for Joining the Chamber</h1>
-        </div>
+        <main>
+            <form method="GET" action="thank_you.html">
+                <label for="first">First Name*</label> 
+                <input type="text" name="first" id="first" required>
+                <br>
+                <br>
 
+                <label for="last">Last Name*</label> 
+                <input type="text" name="last" id="last" required>
+                <br>
+                <br>
+
+                <label for="email">Email*</label> 
+                <input type="email" name="email" id="email" placeholder="johnsmith@gmail.com" required>
+                <br>
+                <br>
+
+                <label for="phone">Cell Phone</label> 
+                <input type="tel" name="phone" id="phone">
+                <br>
+                <br> 
+
+                <label for="subject">Subject*</label> 
+                <input type="text" name="subject" id="subject" required>
+                <br>
+                <br>
+
+                <label for="inquiry_description">Matter to be Resolved*</label>
+                <textarea name="inquiry_description" id="inquiry_description" cols="20" rows="10" required></textarea>
+                <br>
+
+                <input type="submit" value="Send" class="join-button">
+            </form>
+
+            <div class="member_info">
+                <h2>City Hall Contact Information</h2>
+
+                <div>
+                    <h3>Phone Number</h3>
+                    <p>(309) 962-3031</p>
+                </div>
+
+                <div>
+                    <h3>Schedule</h3>
+                    <p>Open Monday Through Friday <br>
+                        7:00 a.m. to 4:00 p.m.</p>
+                </div>
+
+                <div>
+                    <h3>City Hall Address</h3>
+                    <p>207 S. East Street, Le Roy, IL 61752</p>
+                </div>
+            </div>
+        </main>
+    
         <footer>
             <div class="footer_img">
-                <a href="index.html">
-                    <img class="footer_img" src="./images/Leroy_Logo_4.webp" alt="Small Town, Big Heart">
-                </a>
+                <img class="footer_img" src="./images/Leroy_Logo_4.webp" alt="Earth">
             </div>
     
             <div class="part1">            
