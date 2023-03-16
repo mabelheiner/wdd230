@@ -33,7 +33,7 @@ const displayBusinesses = (businesses) => {
     // Create elements to add to the div.cards element
     let card = document.createElement("section");
     card.innerHTML = `
-    <img src="${business.imageURL}">
+    <img src="${business.imageURL}" alt="${business.name}">
     <p>${business.name}</p>
     <p>${business.streetAddress}</p>
     <p>${business.cityStateZip}</p>
