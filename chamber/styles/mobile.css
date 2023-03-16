@@ -278,3 +278,13 @@ section a:hover{
 .option{
   padding: 14px;
 }
+
+.places-to-see{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.places-to-see section{
+  display: grid;
+  padding: .5em;
+}
