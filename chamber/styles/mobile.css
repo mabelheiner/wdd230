@@ -171,6 +171,16 @@ fieldset{
   grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
 }
 
+.hall-members{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.hall-members div{
+  display: grid;
+  padding: .5em;
+}
+
 .directory-list:active{    
   display: grid;
   justify-items: center;   
