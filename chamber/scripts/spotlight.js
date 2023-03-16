@@ -25,7 +25,7 @@ const displayBusinesses = (businesses) => {
       }
       card.innerHTML = `
       <p>${spotlight[0].name}</p>
-      <img src="${spotlight[0].imageURL}">`
+      <img src="${spotlight[0].imageURL}" alt="${spotlight[0].name}">`
       cards.appendChild(card);
       count += 1;
     }); 
