@@ -47,6 +47,7 @@ nav ul li:hover{
 
 nav ul {
     list-style: none;  
+    padding: 5px;
 }
   
 nav ul li {

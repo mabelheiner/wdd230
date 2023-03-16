@@ -1,35 +1,4 @@
-@media (min-width: 1300px){        
-    nav {
-        margin: auto;
-        padding: 1rem;
-    }
-    
-    nav ul li:hover{
-        background-color: #CF920E;
-    }
-    
-    nav ul {
-        display: flex;
-        flex-direction: row;
-        list-style: none;  
-    }
-      
-    nav ul li {
-        min-width: 20%;
-        padding-top: 1em;
-        padding-bottom: 1em;
-        border: .5px solid white;
-        margin-bottom: .1em;
-        background-color: #E89F00;
-        color: black;
-    }
-    
-    nav a {
-        display: block;
-        text-decoration: none;
-        color: black;
-      }
-    
+@media (min-width: 1300px){            
     main {
         grid-template-columns: 1fr 2fr 1fr;
         grid-template-areas: "event hero hero spotlights"
