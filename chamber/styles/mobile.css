@@ -276,7 +276,11 @@ section a:hover{
 }
 
 .option{
-  padding: 14px;
+  padding: 7px;
+}
+
+form input{
+  padding: .5em;
 }
 
 .places-to-see{
