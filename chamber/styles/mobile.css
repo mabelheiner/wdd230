@@ -264,3 +264,7 @@ section a:hover{
 .directory-list section:nth-child(even) {
   background-color: #CF920E;
 }
+
+.option{
+  padding: 14px;
+}
