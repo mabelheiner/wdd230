@@ -114,6 +114,11 @@ main {
   border: 2px gray solid;
 }
 
+.spotlight3 img{
+  height: 150px;
+  border: 2px gray solid;
+}
+
 .spotlight2{
     display: block;
     border: 2px gray solid;
