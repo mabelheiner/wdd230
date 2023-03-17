@@ -215,7 +215,7 @@ section a:hover{
   background-color: #E89F00;
 }
 
-#directory-selector button:active{
+#directory-selector .selected{
   background-color: #560216;
   color: white;
 }
@@ -291,4 +291,8 @@ form input{
 .places-to-see section{
   display: grid;
   padding: .5em;
+}
+
+.active{
+  background-color: #CF920E;
 }

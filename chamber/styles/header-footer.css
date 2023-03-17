@@ -122,6 +122,13 @@ a{
   #navbar.menu-active{
     display: flex;
     flex-direction: column;
+    align-items: center;
+  }
+
+  #navbar.menu-active li{
+    margin: .5em;
+    padding: .5em;
+    width: fit-content;
   }
   
   #menu-open.menu-active{

@@ -3,18 +3,18 @@ var listSelector = document.querySelector('#directory-list');
 var directoryData = document.querySelector('#directory-data');
 
 gridSelector.addEventListener('click', ()=>{
-    if (!gridSelector.classList.contains('active')){    
-        gridSelector.classList.add('active');
-        listSelector.classList.remove('active');
+    if (!gridSelector.classList.contains('selected')){    
+        gridSelector.classList.add('selected');
+        listSelector.classList.remove('selected');
         directoryData.classList.add('directory-cards')
         directoryData.classList.remove('directory-list')
     }
 });
 
 listSelector.addEventListener('click', ()=>{
-    if (!listSelector.classList.contains('active')){
-        listSelector.classList.add('active');
-        gridSelector.classList.remove('active');
+    if (!listSelector.classList.contains('selected')){
+        listSelector.classList.add('selected');
+        gridSelector.classList.remove('selected');
         directoryData.classList.add('directory-list')
         directoryData.classList.remove('directory-cards')
     }
