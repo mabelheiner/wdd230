@@ -83,10 +83,30 @@
 #navbar{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin-right: 1em;
   }
 
-  #navbar.menu-active{
+#navbar.menu-active{
     display: flex;
     flex-direction: row;
+    width: 100%;
+    margin-right: 1em;
+}
+
+nav{
+    margin-right: 6em;
+}
+
+#navbar.menu-active li{
+    min-width: 20%;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border: .5px solid white;
+    margin-bottom: .1em;
+    background-color: #E89F00;
+    color: black;
+    margin-right: 0;
+    margin-left: 0;
 }
 }
