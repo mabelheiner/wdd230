@@ -9,7 +9,6 @@ main {
                         "spotlights";
     grid-gap: .5em;
 }
-
   .hero-text, .sign_up {
     display: block;
     grid-area: hero;
@@ -25,6 +24,7 @@ main {
     height: 300px;  
     align-items: center;
     justify-content: center;
+    width: 100%;
   }
 
   .hero-text{
@@ -60,7 +60,7 @@ main {
     background-color: lightgray;
     padding: 1em;
     min-height: 150px;
-    margin-top: 2em;
+    text-align: center;
 }
 
 .event img{
@@ -68,17 +68,17 @@ main {
 }
 
 .weather{
-    display: flex;
+    display: block;
     grid-area: weather;
     border: 2px gray solid;
     background-color: lightgray;
     padding: 1em;
     min-height: 150px;
-    position: relative;
+    text-align: center;
 }
 
 .weather img{
-    width: 150px;
+    width: 25%;
 }
 
 .news{
