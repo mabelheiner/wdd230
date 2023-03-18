@@ -131,6 +131,8 @@ main {
 .spotlight3{
     display: none;
     min-height: 150px;
+    align-items: center;
+    text-align: center;
 }
 
 .join{
