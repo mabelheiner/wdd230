@@ -17,14 +17,15 @@ main {
   .hero{
     display: grid;
     grid-area: hero;
-    background-image: url("../images/Leroy_Town.png");
-    border: 2px gray solid;       
+    background-image: url("../images/Leroy-Home.jpg");
+    border: 2px gray solid;  
     background-position: center;
+    background-repeat:no-repeat;
     text-align: center;
     height: 300px;  
     align-items: center;
     justify-content: center;
-    width: 100%;
+    background-size: auto 100%;
   }
 
   .hero-text{
