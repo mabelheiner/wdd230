@@ -37,6 +37,18 @@ nav ul li{
     padding-bottom: .7em;
 }
 
+nav a{
+    text-decoration: none;
+    color: black;
+}
+
+nav ul li:hover{
+    background-color: #672337;
+}
+
+a:hover{
+    color: white;
+}
 
 main{
     display: grid;
