@@ -5,48 +5,25 @@ document.querySelector("#currentyear").textContent = today.getFullYear();
 // This sets last modified date on the home page
 document.querySelector('#lastmodified').textContent = document.lastModified;
 
-const lat = '32.715736';
-const lon = '-117.161087';
-const apikey = '7c769c7df2eb7fc6070718ff416f4bfd';
+const cityName = "San Diego";
+const cnt = 3;
+const apiKey = "505d1b4b75e2a9baa4c84e665e9e8f61";
 
-const url = `https://api.openweathermap.org/data/2.5/forecast?lat=${lat}&lon=${lon}&appid=${apikey}&units=imperial`;
+const url = `https://api.openweathermap.org/data/2.5/forecast?q=${cityName}%appid=${apiKey}&units=imperial`;
 
-function displayDaily(data) {
-    var forecastEl = document.querySelector("forecast");
-    var fday = "";
-    console.log("Data,", data.list)
-    data.list.forEach((value, index) => {
-        if (index > 0) {
-            var dayname = new Date(value.dt * 1000).toLocaleDateString("en", {
-                weekday: "long",
-            });
-            var icon = value.weather[0].icon;
-            var temp = value.temp.day.toFixed(0);
-            fday = `<div class="forecast-day">
-                <p>${dayname}</p>
-                <p><span class="ico-${icon}" title="${icon}"></span></p>
-                <div class="forecast-day--temp">${temp}<sup>°C</sup></div>
-            </div>`;
-            forecastEl[0].insertAdjacentHTML('beforeend', fday);
-        }
+fetch(url)
+  .then(response => response.json())
+  .then(data => {
+    // Extract the temperature for each day
+    const temperatures = data.list.map(day => day.temp.day);
+
+    // Log the temperatures
+    temperatures.forEach((temp, index) => {
+      console.log(`Temperature for day ${index + 1}: ${temp}°F`);
     });
-}
+  })
+  .catch(error => {
+    console.error("Error fetching forecast data:", error);
+  });
 
-async function apiFetch() {
-    try {
-      const response = await fetch(url);
-      if (response.ok) {
-        const data = await response.json();
-        //console.log(data); // this is for testing the call
-        console.log(data);
-        displayDaily(data);
-      } else {
-          throw Error(await response.text());
-      }
-    } catch (error) {
-        console.log(error);
-    }
-  }
-  
-  apiFetch();
 
