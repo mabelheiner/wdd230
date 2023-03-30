@@ -8,9 +8,6 @@ const displayBusinesses = (businesses) => {
         spotlights.push(businessList.splice(spot, 1));
       }
 
-    console.log("Here is the spotlight data", spotlights);
-    console.log("here is a spotlight", spotlights[1])
-
     count = 1;
     spotlights.forEach((spotlight) => {
       console.log("spotlight info", spotlight);

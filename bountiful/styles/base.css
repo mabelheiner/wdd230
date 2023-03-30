@@ -13,6 +13,13 @@ header, footer{
     padding-top: 1em;
     padding-bottom: 1em;
 }
+footer{
+    margin-top: 1em;
+}
+
+.weather-title{
+    text-align: center;
+}
 
 nav{
     max-width: 100%;
@@ -58,20 +65,33 @@ main{
 }
 
 .hero img{
-    width: 100%;
+    height: 80%;
+    border: 2px solid #672337
 }
 
 .hero{
     display: grid;
     grid-area: hero;
+    justify-content: center;
+    margin-top: 1em;
 }
 
 .weather{
-    display: grid;
     grid-area: weather;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.weather .day-forecast{
+    border: 2px solid #48617E;
+    background-color: lightblue;
+    min-height: 150px;
+    text-align: center;
 }
 
 .popular-drinks{
     display: grid;
     grid-area: popular-drinks;
+    justify-content: center;
 }
