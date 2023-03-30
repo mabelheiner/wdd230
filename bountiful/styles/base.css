@@ -57,7 +57,7 @@ a:hover{
     color: white;
 }
 
-main{
+.home-main{
     display: grid;
     grid-template-columns: 2fr 1fr;
     grid-template-areas: "hero hero"
@@ -83,15 +83,52 @@ main{
     flex-direction: row;
 }
 
-.weather .day-forecast{
+.day-forecast{
     border: 2px solid #48617E;
     background-color: lightblue;
     min-height: 150px;
-    text-align: center;
+    margin: 1em;
 }
+
+.day-forecast p{
+    margin: 0px;
+}
+
 
 .popular-drinks{
     display: grid;
     grid-area: popular-drinks;
     justify-content: center;
+}
+
+.join-main{
+    padding: 1em;
+}
+
+form{
+    border: 2px solid #48617E;
+    background-color: lightblue;
+    padding: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    margin-bottom: 1em;
+}
+
+.join-button{
+    background-color: darkblue;
+    color: white;
+    padding: .5em;
+}
+
+.fruit-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
 }

@@ -7,7 +7,7 @@
     <meta name="description" content="This is the initial site plan for the Bountiful Food Website">
     <title>Bountiful Foods Site Plan</title>
     <link rel="stylesheet" href="./styles/base.css">
-    <script src="./scripts/main.js" defer></script>
+    <script src="./scripts/h-f.js" defer></script>
     <script src="./scripts/fruity.js" defer></script>
 </head>
 <body>
@@ -21,7 +21,28 @@
             <li><a href="about-us.html">About Us</a></li>
         </ul>
     </nav>
-    <main>
+    <main class="join-main">
+        <form method="GET" action="order.html">
+            <div class="inputs">
+                <label for="first">First Name*</label> 
+                <input type="text" name="first" id="first" required>
+
+                <label for="last">Last Name*</label> 
+                <input type="text" name="last" id="last" required>
+
+                <label for="email">Email*</label> 
+                <input type="email" name="email" id="email" placeholder="johnsmith@gmail.com" required>
+            </div> 
+
+            <h3>Pick Your Drink Flavors!</h3>
+            <div class="fruit-list">
+
+            </div>
+
+            <div class="inputs">
+                <input type="submit" value="Order Drink" class="join-button">
+            </div>
+        </form>
     </main>
     <footer>
         <p>&copy; <span id="currentyear"></span> | Mabel Heiner | Rexburg, ID</p>

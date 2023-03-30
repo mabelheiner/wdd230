@@ -3,12 +3,13 @@ const fruity_url = "./data/fruity.json";
 // COMPARE THIS TO THE VERSION FOUND IN THE W09 Activity: Working with JSON data and the Fetch API module
 // Using the innerHTML version is a little less Javascript intensive.
 const displayFruits = (fruits) => {
-  const cards = document.querySelector(".directory-cards");
-  const fruit_display = document.querySelector(".popular-drinks")
+  const fruit_options = document.querySelector(".fruit-list");
 
+  let num = 0;
   fruits.forEach((fruit) => {
-    console.log("Individual fruit: ", fruit.name);
-    
+    fruit_options.innerHTML += `<input type="checkbox" id=${num} name=${num} value=${fruit.name}>
+    <label for=${fruit.id}> ${fruit.name}</label>`;
+    num += 1;
   })
 }; 
 
