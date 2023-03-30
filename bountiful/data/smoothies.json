@@ -1,0 +1,19 @@
+{
+    "smoothies": [
+    {
+        "name": "Strawbana",
+        "description": "A delicious smoothie",
+        "imageUrl": "./images/strawberry_banana.jpg"
+    }, 
+    
+    {
+        "name": "Fresh Greens",
+        "description": "A delicious smoothie",
+        "imageUrl": "./images/green_apply.jpg"
+    },
+    {
+        "name": "Blue Razz",
+        "description": "A delicious smoothie",
+        "imageUrl": "./images/blueberry_raspberry.jpg"
+    }
+]}
