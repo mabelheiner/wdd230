@@ -98,7 +98,18 @@ a:hover{
 .popular-drinks{
     display: grid;
     grid-area: popular-drinks;
-    justify-content: center;
+}
+
+.popular{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.popular button{
+    font-family: 'Vidaloka', serif;
+    background-color: lightblue;
+    padding: .5em;
 }
 
 .join-main{
@@ -123,6 +134,7 @@ input{
 }
 
 .join-button{
+    font-family: 'Vidaloka', serif;
     background-color: darkblue;
     color: white;
     padding: .5em;

@@ -2,18 +2,18 @@
     "smoothies": [
     {
         "name": "Strawbana",
-        "description": "A delicious smoothie",
-        "imageUrl": "./images/strawberry_banana.jpg"
+        "description": "This smoothie is a delicious combination of strawberry and banana!",
+        "imageUrl": "./images/strawberry_bannana.jpg"
     }, 
     
     {
         "name": "Fresh Greens",
-        "description": "A delicious smoothie",
-        "imageUrl": "./images/green_apply.jpg"
+        "description": "This smoothie is flavored with mouth-watering guava and kiwi. It is a must try!",
+        "imageUrl": "./images/green_apple.jpg"
     },
     {
         "name": "Blue Razz",
-        "description": "A delicious smoothie",
+        "description": "One of our favorites here, the combination of blueberry and raspberry is sweet and tangy!",
         "imageUrl": "./images/blueberry_raspberry.jpg"
     }
 ]}
