@@ -106,6 +106,10 @@ a:hover{
     grid-gap: 1em;
 }
 
+.popular img{
+    height: 250px;
+}
+
 .popular button{
     font-family: 'Vidaloka', serif;
     background-color: lightblue;
