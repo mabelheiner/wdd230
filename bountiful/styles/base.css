@@ -103,6 +103,10 @@ a:hover{
     grid-area: popular-drinks;
 }
 
+.popular-drinks h2{
+    text-align: center;
+}
+
 .popular{
     display: grid;
     grid-template-columns: 1fr 1fr;
