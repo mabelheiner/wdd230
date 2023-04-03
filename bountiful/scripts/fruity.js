@@ -7,7 +7,7 @@ const displayFruits = (fruits) => {
 
   let num = 0;
   fruits.forEach((fruit) => {
-    fruit_options.innerHTML += `<div class="item"><input type="checkbox" id=${num} name=${num} value=${fruit.name}>
+    fruit_options.innerHTML += `<div class="item"><input type="checkbox" id=fruit name=fruit value=${fruit.name}>
     <label for=${fruit.id}> ${fruit.name}</label></div>`;
     num += 1;
   })

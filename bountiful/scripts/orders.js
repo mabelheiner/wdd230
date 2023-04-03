@@ -4,8 +4,6 @@ const order_button = document.querySelector(".order-button");
 
 let count = localStorage.getItem('drinks-counted');
 
-console.log("The initial count is", count);
-
 if (count === ""){
     count = 0;
 }
