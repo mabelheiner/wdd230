@@ -57,16 +57,18 @@ nav a:hover{
 
 .home-main{
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-areas: "hero hero"
-                        "weather popular-drinks"
-                        "drinks-ordered popular-drinks";
+    grid-template-columns: 1fr;
+    grid-template-areas: "hero"
+                        "popular-drinks"
+                        "drinks-ordered"
+                        "weather";
 }
 
 .hero img{
     display: flex;
     height: 60%;
-    border: 2px solid #672337
+    border: 2px solid #672337;
+    margin-top: .75em;
 }
 
 .hero{
@@ -75,6 +77,7 @@ nav a:hover{
     justify-content: center;
     margin-top: 1em;
     height: 420px;
+    background-color: #672337;
 }
 
 .weather{
@@ -107,8 +110,14 @@ nav a:hover{
 }
 
 .popular{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    padding: 1em;
+}
+
+.drink_data{
+    width: 32.3%;
 }
 
 .popular img{
@@ -117,8 +126,9 @@ nav a:hover{
 
 .popular button{
     font-family: 'Vidaloka', serif;
-    background-color: lightblue;
-    padding: .5em;
+    background-color: darkblue;
+    color: white;
+    padding: 1em;
 }
 
 .drinks-ordered{
@@ -169,6 +179,8 @@ input{
     background-color: darkblue;
     color: white;
     padding: .5em;
+    display: block;
+    width: 100%;;
 }
 
 .fruit-list{
