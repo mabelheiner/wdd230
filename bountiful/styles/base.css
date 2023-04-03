@@ -40,21 +40,18 @@ nav ul li{
     background-color: #F4CED4;
     border: 1px solid #672337;
     text-align: center;
-    padding-top: .7em;
-    padding-bottom: .7em;
 }
 
 nav a{
     text-decoration: none;
     color: black;
     display: block;
+    padding-top: .7em;
+    padding-bottom: .7em;
 }
 
-nav ul li:hover{
+nav a:hover{
     background-color: #672337;
-}
-
-a:hover{
     color: white;
 }
 
