@@ -127,6 +127,12 @@ a:hover{
     display: grid;
     grid-area: drinks-ordered;
     text-align: center;
+    border: 2px solid #48617E;
+    background-color: lightblue;
+    padding: .5em;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
 }
 
 .join-main{
