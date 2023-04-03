@@ -15,8 +15,8 @@ function displayWeather(weather_list){
   let feels_like = [];
   for (let i=0; daily.length < 3; i += 8){
     daily.push(weather_list.list[i].main.temp.toFixed(0));
-    max.push(weather_list.list[i].main.temp_max.toFixed(0));
-    min.push(weather_list.list[i].main.temp_min.toFixed(0));
+    max.push(weather_list.list[i+6].main.temp_max.toFixed(0));
+    min.push(weather_list.list[i+3].main.temp_min.toFixed(0));
     icons.push(weather_list.list[i].weather[0].icon);
     feels_like.push(weather_list.list[i].main.feels_like.toFixed(0));
   };
