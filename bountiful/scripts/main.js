@@ -14,11 +14,11 @@ function displayWeather(weather_list){
   let min = [];
   let feels_like = [];
   for (let i=0; daily.length < 3; i += 8){
-    daily.push(weather_list.list[i].main.temp);
-    max.push(weather_list.list[i].main.temp_max);
-    min.push(weather_list.list[i].main.temp_min);
+    daily.push(weather_list.list[i].main.temp.toFixed(0));
+    max.push(weather_list.list[i].main.temp_max.toFixed(0));
+    min.push(weather_list.list[i].main.temp_min.toFixed(0));
     icons.push(weather_list.list[i].weather[0].icon);
-    feels_like.push(weather_list.list[i].main.feels_like);
+    feels_like.push(weather_list.list[i].main.feels_like.toFixed(0));
   };
 
   let day_names = [];

@@ -10,6 +10,14 @@ if (count == null){
 localStorage.setItem('drinks-counted', count);
 drink_count.innerHTML = localStorage.getItem('drinks-counted');
 
+if (localStorage.getItem('drinks-counted') == 1){
+    drink_count.innerHTML += ` drink`;
+}
+
+else{
+    drink_count.innerHTML += ` drinks`;
+}
+
 console.log("drinks counted", localStorage.getItem('drinks-counted'));
 
 
