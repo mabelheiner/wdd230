@@ -61,7 +61,8 @@ a:hover{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-areas: "hero hero"
-                        "weather popular-drinks";
+                        "weather popular-drinks"
+                        "drinks-ordered popular-drinks";
 }
 
 .hero img{
@@ -122,6 +123,11 @@ a:hover{
     padding: .5em;
 }
 
+.drinks-ordered{
+    display: grid;
+    grid-area: drinks-ordered;
+}
+
 .join-main{
     padding: 1em;
 }
@@ -143,7 +149,7 @@ input{
     margin-bottom: 1em;
 }
 
-.join-button{
+.order-button{
     font-family: 'Vidaloka', serif;
     background-color: darkblue;
     color: white;
