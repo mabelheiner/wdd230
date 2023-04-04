@@ -1,46 +1,48 @@
 const fruity_url = "./data/fruity.json";
 
+const orderButton = document.querySelector(".order-button");
+// Get the select element
+const select1 = document.getElementById("select1");
+const select2 = document.getElementById("select2");
+const select3 = document.getElementById("select3");
+
 // COMPARE THIS TO THE VERSION FOUND IN THE W09 Activity: Working with JSON data and the Fetch API module
 // Using the innerHTML version is a little less Javascript intensive.
 const displayFruits = (fruits) => {
-  const fruit_options = document.querySelector(".fruit-list");
-
-  // Get the select element
-  const select1 = document.getElementById("select1");
-  const select2 = document.getElementById("select2");
-  const select3 = document.getElementById("select3");
 
   // Loop through the options and create option elements
   for (let i = 0; i < fruits.length; i++) {
-    const option = document.createElement("option");
-    option.value = fruits[i].id;
-    option.text = fruits[i].name;
-    select1.add(option);
+    const option1 = document.createElement("option");
+    option1.value = fruits[i].id;
+    option1.text = fruits[i].name;
+    select1.add(option1);
   }
 
   for (let i = 0; i < fruits.length; i++) {
-    const option = document.createElement("option");
-    option.value = fruits[i].id;
-    option.text = fruits[i].name;
-    select2.add(option);
+    const option2 = document.createElement("option");
+    option2.value = fruits[i].id;
+    option2.text = fruits[i].name;
+    select2.add(option2);
   }
 
   for (let i = 0; i < fruits.length; i++) {
-    const option = document.createElement("option");
-    option.value = fruits[i].id;
-    option.text = fruits[i].name;
-    select3.add(option);
+    const option3 = document.createElement("option");
+    option3.value = fruits[i].id;
+    option3.text = fruits[i].name;
+    select3.add(option3);
   }
 
-
-  /*
-  let num = 0;
-  fruits.forEach((fruit) => {
-    fruit_options.innerHTML += `<div class="item"><input type="checkbox" id=fruit name=fruit value=${fruit.name}>
-    <label for=${fruit.id}> ${fruit.name}</label></div>`;
-    num += 1;
+  select1.addEventListener("change", function() {
+    localStorage.setItem("selection1", this.value);
   })
-  */
+
+  select2.addEventListener("change", function() {
+    localStorage.setItem("selection2", this.value);
+  })
+
+  select3.addEventListener("change", function() {
+    localStorage.setItem("selection3", this.value);
+  })
 }; 
 
 async function getFruitData() {
