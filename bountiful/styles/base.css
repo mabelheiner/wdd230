@@ -14,6 +14,12 @@ header, footer{
     padding-bottom: 1em;
 }
 
+.social_logo{
+    float: right;
+    height: 35px;
+    padding: .1em;
+}
+
 .weather-title{
     text-align: center;
     background-color: #F4CED4;

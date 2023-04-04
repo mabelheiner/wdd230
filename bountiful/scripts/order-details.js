@@ -7,7 +7,11 @@ let list = document.querySelector(".items");
 let contact = document.querySelector(".contact");
 
 contact.innerHTML = `Name: ${params.get("first")} <br> Phone: ${params.get("last")} <br> 
-                    Email: ${params.get("email")}`
+                    Email: ${params.get("email")}`;
+
+if (params.get("special_instr") != ""){
+  contact.innerHTML += `<br> Special Instructions: ${params.get("special_instr")}`;
+}
 
 function displayNames(fruit_list) {
     for (let i = 0; i < fruit_list.length; i++) {
