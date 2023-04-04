@@ -36,10 +36,10 @@ function displayWeather(weather_list){
     
     let day = document.createElement("div");
     day.innerHTML += `<h3> ${day_names[dayz]} </h3>
-    <p>Temperature: ${day_temp}</p> <br> 
-    <p> High: ${max[dayz]} </p> <br>
-    <p> Low: ${min[dayz]} </p> <br>
-    <p> Feels like: ${feels_like[dayz]} <p> 
+    <p>Temperature: ${day_temp}&deg;F</p> <br> 
+    <p> High: ${max[dayz]}&deg;F</p> <br>
+    <p> Low: ${min[dayz]}&deg;F</p> <br>
+    <p> Feels like: ${feels_like[dayz]}&deg;F<p> 
     <img src="https://openweathermap.org/img/wn/${icons[dayz]}@4x.png" alt="${weather_list.list[dayz].weather[0].description}">
     <p>${weather_list.list[w].weather[0].description}</p`;
     dayz += 1
