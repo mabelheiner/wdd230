@@ -4,11 +4,6 @@ const order_button = document.querySelector(".order-button");
 
 let count = localStorage.getItem('drinks-counted');
 
-const fulldate = new Intl.DateTimeFormat("en-US", { dateStyle: "full"}).format( new Date() );
-
-document.querySelector('#current_date').innerHTML = fulldate;
-document.querySelector('#current_date').value = fulldate;
-
 if (count == null){
     count = 0;
 }
