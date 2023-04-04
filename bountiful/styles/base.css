@@ -188,7 +188,7 @@ select{
     width: 100%;;
 }
 
-.fruit-list{
+.fruit-list, .items{
     display: grid;
     grid-template-columns: 32% 32% 32%;
     grid-gap: 1em;

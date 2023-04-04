@@ -12,15 +12,30 @@ contact.innerHTML = `Name: ${params.get("first")} <br> Phone: ${params.get("last
 function displayNames(fruit_list) {
     for (let i = 0; i < fruit_list.length; i++) {
         if (fruit_list[i].id == localStorage.getItem("selection1")){
-            list.innerHTML += `${fruit_list[i].name} <br>`;
+            list.innerHTML += `<div><h3>${fruit_list[i].name}</h3>
+                                <p>Calories: ${fruit_list[i].nutritions["calories"]} cal</p>
+                                <p>Carbohydrates: ${fruit_list[i].nutritions["carbohydrates"]}g</p>
+                                <p>Protein: ${fruit_list[i].nutritions["protein"]}g</p>
+                                <p>Fat: ${fruit_list[i].nutritions["fat"]}g</p>
+                                <p>Sugar: ${fruit_list[i].nutritions["sugar"]}g</p></div>`;
         }
 
         if (fruit_list[i].id == localStorage.getItem("selection2")){
-            list.innerHTML += `${fruit_list[i].name} <br>`;
+            list.innerHTML += `<div><h3>${fruit_list[i].name}</h3>
+            <p>Calories: ${fruit_list[i].nutritions["calories"]} cal</p>
+            <p>Carbohydrates: ${fruit_list[i].nutritions["carbohydrates"]}g</p>
+            <p>Protein: ${fruit_list[i].nutritions["protein"]}g</p>
+            <p>Fat: ${fruit_list[i].nutritions["fat"]}g</p>
+            <p>Sugar: ${fruit_list[i].nutritions["sugar"]}g</p></div>`;
         }
 
         if (fruit_list[i].id == localStorage.getItem("selection3")){
-            list.innerHTML += `${fruit_list[i].name} <br>`;
+            list.innerHTML += `<div><h3>${fruit_list[i].name}</h3>
+            <p>Calories: ${fruit_list[i].nutritions["calories"]} cal</p>
+            <p>Carbohydrates: ${fruit_list[i].nutritions["carbohydrates"]}g</p>
+            <p>Protein: ${fruit_list[i].nutritions["protein"]}g</p>
+            <p>Fat: ${fruit_list[i].nutritions["fat"]}g</p>
+            <p>Sugar: ${fruit_list[i].nutritions["sugar"]}g</p></div>`;
         }
     }
 }
