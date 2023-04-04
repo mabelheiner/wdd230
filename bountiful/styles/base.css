@@ -13,12 +13,10 @@ header, footer{
     padding-top: 1em;
     padding-bottom: 1em;
 }
-footer{
-    margin-top: 1em;
-}
 
 .weather-title{
     text-align: center;
+    background-color: #F4CED4;
 }
 
 nav{
