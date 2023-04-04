@@ -52,7 +52,6 @@ function displayWeather(weather_list){
 fetch(url)
   .then(response => response.json())
   .then(data => {
-    console.log(data);
     displayWeather(data);
   })
   .catch(error => {

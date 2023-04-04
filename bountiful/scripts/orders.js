@@ -18,8 +18,6 @@ else{
     drink_count.innerHTML += ` drinks`;
 }
 
-console.log("drinks counted", localStorage.getItem('drinks-counted'));
-
 
 order_button.addEventListener('click', () => {
     count++;

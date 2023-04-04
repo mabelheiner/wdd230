@@ -44,12 +44,9 @@ async function getFruitData() {
     const response = await fetch(fruity_url);
     if (response.ok) {
       const data = await response.json();
-      console.log(data);
       displayNames(data.fruits);
     } else {
       console.error("There was an error loading the data.");
-      const cards = document.querySelector("directory-cards");
-      cards.innerHTML = "<section><h1>There was an error loading the data</h1></section>";
     }
   }
   
