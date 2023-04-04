@@ -106,7 +106,7 @@ nav a:hover{
 }
 
 .popular-drinks h2{
-    text-align: center;
+    margin-left: 44.5%;
 }
 
 .popular{
@@ -122,6 +122,7 @@ nav a:hover{
 
 .popular img{
     height: 250px;
+    border: 1px solid #672337;
 }
 
 .popular button{
@@ -129,6 +130,7 @@ nav a:hover{
     background-color: darkblue;
     color: white;
     padding: 1em;
+    border-style: none;
 }
 
 .drinks-ordered{
@@ -185,7 +187,8 @@ select{
     color: white;
     padding: .5em;
     display: block;
-    width: 100%;;
+    width: 100%;
+    border-style: none;
 }
 
 .fruit-list, .items{
