@@ -75,7 +75,6 @@ nav a:hover{
     display: grid;
     grid-area: hero;
     justify-content: center;
-    margin-top: 1em;
     height: 420px;
     background-color: #672337;
 }
@@ -89,8 +88,8 @@ nav a:hover{
 }
 
 .day-forecast{
-    border: 2px solid #48617E;
-    background-color: lightblue;
+    border: 2px solid gray;
+    background-color: lightgray;
     min-height: 150px;
     margin: 1em;
 }
@@ -103,6 +102,7 @@ nav a:hover{
 .popular-drinks{
     display: grid;
     grid-area: popular-drinks;
+    background-color: #F4CED4;
 }
 
 .popular-drinks h2{
