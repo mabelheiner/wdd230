@@ -13,6 +13,8 @@ if (params.get("special_instr") != ""){
   contact.innerHTML += `<br> Special Instructions: ${params.get("special_instr")}`;
 }
 
+contact.innerHTML += `<br> Order Date: ${params.get("date")}`;
+
 function displayNames(fruit_list) {
     for (let i = 0; i < fruit_list.length; i++) {
         if (fruit_list[i].id == localStorage.getItem("selection1")){
