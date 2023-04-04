@@ -170,8 +170,13 @@ form{
     flex-direction: column;
 }
 
-input{
+input, select{
     margin-bottom: 1em;
+    padding: .5em;
+}
+
+select{
+    text-align: center;
 }
 
 .order-button{
@@ -185,5 +190,9 @@ input{
 
 .fruit-list{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: 32% 32% 32%;
+    grid-gap: 1em;
+    margin-bottom: 1em;
+    justify-content: center;
+    align-items: center;
 }
