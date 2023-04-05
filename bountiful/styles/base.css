@@ -22,7 +22,7 @@ header, footer{
 
 .weather-title{
     text-align: center;
-    background-color: #F4CED4;
+    background-color: lightblue;
 }
 
 nav{
@@ -65,6 +65,7 @@ nav a:hover{
     grid-template-areas: "hero"
                         "popular-drinks"
                         "drinks-ordered"
+                        "about-california"
                         "weather";
 }
 
@@ -141,13 +142,41 @@ nav a:hover{
     display: grid;
     grid-area: drinks-ordered;
     text-align: center;
-    border: 2px solid #48617E;
     background-color: lightblue;
     padding: .5em;
     justify-content: center;
     align-items: center;
     margin-right: 1em;
     width: 99%;
+}
+
+.about-california{
+    display: grid;
+    grid-area: about-california;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "what-near what-near"
+                        "legoland sea-life";
+    text-align: center;
+    background-color: #F4CED4;
+    padding: .5em;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1em;
+    width: 99%;
+}
+
+.what-near{
+    display: block;
+    grid-area: what-near;
+}
+.legoland{
+    display: block;
+    grid-area: legoland;
+}
+
+.sea-life{
+    display: block;
+    grid-area: sea-life;
 }
 
 .about-us-main{    
