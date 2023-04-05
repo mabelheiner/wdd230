@@ -40,7 +40,7 @@ function displayWeather(weather_list){
     <p> High: ${max[dayz]}&deg;F</p> <br>
     <p> Low: ${min[dayz]}&deg;F</p> <br>
     <p> Feels like: ${feels_like[dayz]}&deg;F<p> 
-    <img src="https://openweathermap.org/img/wn/${icons[dayz]}@4x.png" alt="${weather_list.list[dayz].weather[0].description}">
+    <img src="https://openweathermap.org/img/wn/${icons[dayz]}@4x.png" alt="${weather_list.list[dayz].weather[0].description}" loading="lazy">
     <p>${weather_list.list[w].weather[0].description}</p`;
     dayz += 1
     w += 8
