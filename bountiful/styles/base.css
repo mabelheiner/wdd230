@@ -176,10 +176,20 @@ nav a:hover{
     width: 99%;
 }
 
+.about-california img{
+    border: 1px solid #672337;
+}
+
 .what-near{
     display: block;
     grid-area: what-near;
 }
+
+.what-near p{
+    width: 80%;
+    margin-left: 10%;
+}
+
 .legoland{
     display: block;
     grid-area: legoland;
@@ -261,5 +271,44 @@ select{
     margin-bottom: 1em;
     justify-content: center;
     align-items: center;
+}
+
+@media (max-width: 600px){
+    .popular-drinks h2{
+        margin-left: 4em;
+    }
+    .popular, .weather{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .weather{
+        align-items: start;
+    }
+    .weather-title h2{
+        text-align: left;
+        margin-left: 1em;
+    }
+    .drink_data{
+        margin-bottom: 1em;
+    }
+
+    .drinks-ordered{
+        justify-content: left;
+    }
+
+    .drinks-ordered h2{
+        margin-left: 2em;
+    }
+
+    .drinks-ordered button{
+        margin-left: 2em;
+    }
+    .about-california{
+        display: grid;
+        grid-template-areas: "what-near"
+                            "legoland"
+                            "sea-life";
+    }
 }
 
