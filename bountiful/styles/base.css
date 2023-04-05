@@ -14,6 +14,12 @@ header, footer{
     padding-bottom: 1em;
 }
 
+.header_img{
+    float: left;
+    height: 80px;
+    margin-left: 1em;
+}
+
 .social_logo{
     float: right;
     height: 35px;
