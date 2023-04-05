@@ -6,7 +6,7 @@ let list = document.querySelector(".items");
 
 let contact = document.querySelector(".contact");
 
-contact.innerHTML = `Name: ${params.get("first")} <br> Phone: ${params.get("last")} <br> 
+contact.innerHTML = `Name: ${params.get("first")} <br> Phone: ${params.get("phone")} <br> 
                     Email: ${params.get("email")}`;
 
 if (params.get("special_instr") != ""){
