@@ -273,7 +273,15 @@ select{
     align-items: center;
 }
 
-@media (max-width: 600px){
+@media (max-width: 600px){    
+    .hero img{
+        width: 400px;
+    }
+
+    .hero{
+        height: 200px;
+        align-items: center;
+    }
     .popular-drinks h2{
         margin-left: 4em;
     }
@@ -282,15 +290,29 @@ select{
         display: flex;
         flex-direction: column;
     }
+
+    .popular{
+        margin-left: 4em;
+    }
+
+    .popular img{
+        width: 200px;
+    }
+
     .weather{
         align-items: start;
+        padding-left: 20%;
     }
     .weather-title h2{
         text-align: left;
-        margin-left: 1em;
+        padding-left: 20%;
     }
     .drink_data{
         margin-bottom: 1em;
+    }
+
+    .drink_data p, .drink_data h3, .drink_data button{
+        margin-left: 2em;
     }
 
     .drinks-ordered{
@@ -305,10 +327,8 @@ select{
         margin-left: 2em;
     }
     .about-california{
-        display: grid;
-        grid-template-areas: "what-near"
-                            "legoland"
-                            "sea-life";
+        display: flex;
+        flex-direction: column;
     }
 }
 
