@@ -14,6 +14,11 @@ header, footer{
     padding-bottom: 1em;
 }
 
+footer a{
+    color: white;
+    text-decoration: none;
+}
+
 .header_img{
     float: left;
     height: 80px;
@@ -74,6 +79,7 @@ nav a:hover{
     grid-template-areas: "hero"
                         "popular-drinks"
                         "drinks-ordered"
+                        "contact-info"
                         "about-california"
                         "weather";
 }
@@ -162,6 +168,18 @@ nav a:hover{
     align-items: center;
     margin-right: 1em;
     width: 99%;
+}
+
+.contact-info{
+    display: grid;
+    grid-area: contact-info;
+    text-align: center;
+    background-color: #E28190;
+}
+
+.contact-info a{
+    text-decoration: none;
+    color: black;
 }
 
 .about-california{
