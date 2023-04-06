@@ -210,6 +210,7 @@ nav a:hover{
     margin: auto;
     margin-top: 1em;
     margin-bottom: 1em;
+    width: 100%;
 }
 
 .about-us-main a{
@@ -327,6 +328,11 @@ select{
         margin-left: 2em;
     }
     .about-california{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .items{
         display: flex;
         flex-direction: column;
     }
